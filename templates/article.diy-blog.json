@@ -1,0 +1,61 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "149f555b-75c2-4156-b2d2-a7ddd704b2e4": {
+          "type": "links",
+          "disabled": true,
+          "settings": {
+            "title": "Categories",
+            "blog_linklist": ""
+          }
+        },
+        "132d6401-ec92-4950-bfb0-fcb07487894b": {
+          "type": "related",
+          "settings": {
+            "title": "Related products",
+            "product_list": []
+          }
+        },
+        "f7bf3420-d98c-4cd4-be45-8fc72524efa9": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "149f555b-75c2-4156-b2d2-a7ddd704b2e4",
+        "132d6401-ec92-4950-bfb0-fcb07487894b",
+        "f7bf3420-d98c-4cd4-be45-8fc72524efa9"
+      ],
+      "custom_css": [],
+      "settings": {
+        "show_image": false,
+        "show_date": false,
+        "show_author": true,
+        "tags": true,
+        "show_sharing": true,
+        "arrows": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

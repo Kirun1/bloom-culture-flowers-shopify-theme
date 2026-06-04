@@ -1,0 +1,1098 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "8a57fdf0-1f0f-402e-9ebe-0e1a200f69ed": {
+      "type": "section-hero",
+      "blocks": {
+        "2110596a-53db-473e-b28d-9d7214374e3c": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Floral Design",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "template--20315109818675__8a57fdf0-1f0f-402e-9ebe-0e1a200f69ed-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_size": "body-medium",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "2110596a-53db-473e-b28d-9d7214374e3c",
+        "template--20315109818675__8a57fdf0-1f0f-402e-9ebe-0e1a200f69ed-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_1": "shopify://shop_images/Bloom_Culture_LLAYTON-138.png",
+        "link": "",
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-10",
+        "show_text_background": false,
+        "overlay_type": "text",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_placeholder": true
+      }
+    },
+    "section_custom_content_CgTabp": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_CjaVjC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloom_Culture_GIF_1200_x_1200_px.gif",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "#f7f6f0",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_Xeg7b9": {
+          "type": "text",
+          "settings": {
+            "subheading": "Your Vision, Our Expertise. ",
+            "title": "Make Flowers You’ll Love With Guidance You Can Trust.",
+            "heading_font_size": "heading-x-large",
+            "text": "<p>Wedding flowers shouldn’t be confusing or expensive — and you shouldn’t have to figure it all out by yourself.  We give you a custom DIY floral plan, easy-to-follow flower recipes, and the exact number of flowers you need to bring your arrangements to life. No guesswork. No wasted money. Just clear guidance and gorgeous results. </p><p>DIY with confidence, with support from real floral designers.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#3a4d39",
+            "color": "#ffffff",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_CjaVjC",
+        "text_Xeg7b9"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": true,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e0e10395-6498-4da4-85a7-a0b54f088e8e": {
+      "type": "section-before-after",
+      "disabled": true,
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/1.jpg",
+        "image_2": "shopify://shop_images/1.2.jpg",
+        "aspect_ratio": 1,
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "2c49db44-4cb6-4530-9af5-51db410b5d08": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--20315109818675__2c49db44-4cb6-4530-9af5-51db410b5d08-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Floral Package Options ",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--20315109818675__2c49db44-4cb6-4530-9af5-51db410b5d08-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>They'll ask, “<em>Who did the flowers?!</em>” and you'll proudly say, <em>\"We did!\"</em></p><p>Time to take the guesswork out of DIY flowers and have some fun!</p><p>We guide you through the DIY process to help you get creative, stay in-control of your budget, and have the most beautiful wedding flowers.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_AQpC8j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tell us your vision. We’ll design your plan.<br/>We build a custom flower package based on your style, colors, and budget — and show you exactly what to order and how to arrange it.<br/><strong>Get guidance.  Feel confident.  Save money.</strong></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "template--20315109818675__2c49db44-4cb6-4530-9af5-51db410b5d08-heading-1",
+        "template--20315109818675__2c49db44-4cb6-4530-9af5-51db410b5d08-text-1",
+        "text_AQpC8j"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "color_scheme": "scheme-1",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "baf67c2f-592b-466c-8d72-09294c9b51ae": {
+      "type": "section-columns",
+      "blocks": {
+        "template--20315109818675__baf67c2f-592b-466c-8d72-09294c9b51ae-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloom_Culture_LLAYTON-178_01623a79-1d90-47ea-ab27-943e75dd115a.jpg",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "Free DIY Wedding Flower Quote",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Tell us what you’re making, and we’ll design a custom flower package based on your colors, style, and budget — so you know exactly what to order for your wedding.<br/><br/><strong>You’ll get:</strong></p><ul><li>Easy-to-follow flower recipes for each arrangement</li><li>Exact stem counts based on your designs and budget</li><li>One-click checkout with everything you need</li><li>One free design revision included</li><li>Wholesale blooms shipped fresh to your door </li></ul>",
+            "text_font_size": "body-small",
+            "button_text": "Get My Custom Quote",
+            "button_url": "shopify://pages/free-quote",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--20315109818675__baf67c2f-592b-466c-8d72-09294c9b51ae-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BlankenshipWedding_MBP_-345.jpg",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "Custom DIY Floral Consultation",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Get expert help from a professional floral designer — one-on-one.  During your 30-minute consultation, we’ll design your full floral plan based on your exact style, colors, inspiration photos, and budget. It’s your chance to ask every question you have and get clear, confident answers from someone who knows wedding flowers inside and out.<br/><br/><strong>You’ll get:</strong></p><ul><li>Speak directly with a floral expert</li><li>One quote with custom recipes & flower selections</li><li> Easy checkout with everything you need</li><li>Three design revisions</li><li>Fresh wholesale blooms shipped to your door </li></ul>",
+            "text_font_size": "body-small",
+            "button_text": "Book my Consultation",
+            "button_url": "shopify://products/diy-flower-consultation",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "template--20315109818675__baf67c2f-592b-466c-8d72-09294c9b51ae-image-1",
+        "template--20315109818675__baf67c2f-592b-466c-8d72-09294c9b51ae-image-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 2,
+        "layout_mobile": "carousel",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_hero_product_WGfNWH": {
+      "type": "section-hero-product",
+      "blocks": {
+        "heading_XxiHmF": {
+          "type": "heading",
+          "settings": {
+            "title": "DIY Wedding Flower Planner",
+            "heading_font_size": "heading-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_dzrJpA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Not ready to go custom yet? The DIY Wedding Flower Planner walks you through everything — step by step, at your own pace. </strong></p>",
+            "text_font_size": "body-large"
+          }
+        },
+        "button_WhqVV4": {
+          "type": "button",
+          "settings": {
+            "link_text": "Get the Planner — $49",
+            "link": "shopify://pages/diy-wedding-flowers-planner",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XxiHmF",
+        "text_dzrJpA",
+        "button_WhqVV4"
+      ],
+      "name": "Image with product",
+      "settings": {
+        "image_1": "shopify://shop_images/2_Image_5_da239954-9a5e-419d-8d04-dadec512f515.png",
+        "link": "",
+        "product": "diy-wedding-flower-planner",
+        "description": "* or Free with any purchase",
+        "text_font_size": "body-medium",
+        "enable_quick_add": true,
+        "color_product_bg": "#f5f2ec",
+        "color_product_text": "#384d39",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "flex_align_mobile": "align--bottom-left-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_custom_content_cNbJNE": {
+      "type": "section-custom-content",
+      "blocks": {
+        "newsletter_pzCg9X": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "heading": "Just Browsing for Your Future Event?",
+            "heading_font_size": "heading-large",
+            "text": "<p>Join our list to get DIY tips, flower care guides, and insider updates.<br/><br/>We’ll help you plan smarter — long before you need to order your flowers.  <br/><br/>Bonus!  We’ll also send a mini preview of the DIY guide directly to your inbox.</p>",
+            "text_font_size": "body-medium",
+            "text_columns": 1,
+            "align_text": "text-left",
+            "show_name": true,
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_q93VGg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloom_Culture_LLAYTON-7.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "#f7f6f0",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_pzCg9X",
+        "image_q93VGg"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-full--mobile",
+        "reverse_blocks": true,
+        "color_scheme": "scheme-b554e65b-3af1-4b95-85d5-02f0bf781144",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_qB39zw": {
+      "type": "section-double",
+      "blocks": {
+        "heading_TQXJUU": {
+          "type": "heading",
+          "settings": {
+            "title": "Why Choose Bloom Culture",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "heading_WDbw76": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Designs Made for Your Wedding ",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 8,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_jA8Tpp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every recipe, flower selection, and stem count is tailored to your style, colors, and budget — so your wedding flowers feel personal, intentional, and uniquely yours. </p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "heading_n9ewqJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Save 60% on Your Wedding Florals ",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 8,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_tCGXzr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With wholesale blooms and a guided DIY plan, most couples save <strong>50–70% </strong>compared to full-service florist pricing — without sacrificing style, quality, or impact. Bloom Culture customers typically spend <strong>$800–$1,800 </strong>to recreate designs that often quote at <strong>$4,000–$10,000+ </strong>with a traditional florist.<br/><em><strong>For example: </strong></em>A full-service floral quote of <strong>$8,400</strong>→ our guided DIY plan cost <strong>$1,275</strong>.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "heading_7NMHFL": {
+          "type": "heading",
+          "settings": {
+            "title": "No Guessing, No Overbuying ",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 8,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_k6Amrf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We calculate exactly how many stems you need for each arrangement — helping you save money and avoid the overwhelm of trying to figure it out on your own. </p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "heading_FkFmeU": {
+          "type": "heading",
+          "settings": {
+            "title": "Experts in DIY Wedding Flowers ",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 8,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_wxMFHK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You’ll work with floral designers who know how to translate professional techniques into simple, achievable steps made for real couples — not pros. </p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "heading_RAxfn9": {
+          "type": "heading",
+          "settings": {
+            "title": "Fresh Wholesale Flowers Delivered to You ",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 8,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_Y8cePV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your flowers arrive fresh from the same wholesale farms and distributors used by professional florists — shipped directly to your door and ready to design with our care and handling guides.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_TQXJUU",
+        "heading_WDbw76",
+        "text_jA8Tpp",
+        "heading_n9ewqJ",
+        "text_tCGXzr",
+        "heading_7NMHFL",
+        "text_k6Amrf",
+        "heading_FkFmeU",
+        "text_wxMFHK",
+        "heading_RAxfn9",
+        "text_Y8cePV"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Bloom_Culture_LLAYTON-71_de4ceb31-663c-484a-b42e-e82df3dba22f.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-full--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-b554e65b-3af1-4b95-85d5-02f0bf781144",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "c44a7852-b408-4772-874d-ea74bdd372e0": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--20315109818675__c44a7852-b408-4772-874d-ea74bdd372e0-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "customer designs",
+            "padding_bottom": 16
+          }
+        },
+        "template--20315109818675__c44a7852-b408-4772-874d-ea74bdd372e0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Customers Are Amazing!",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--20315109818675__c44a7852-b408-4772-874d-ea74bdd372e0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From bouquets to full weddings, these are real DIY designs created using Bloom Culture flowers + our custom plans.<br/><strong>Yes — you can absolutely do this too.</strong></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "template--20315109818675__c44a7852-b408-4772-874d-ea74bdd372e0-subheading-1",
+        "template--20315109818675__c44a7852-b408-4772-874d-ea74bdd372e0-heading-1",
+        "template--20315109818675__c44a7852-b408-4772-874d-ea74bdd372e0-text-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_columns_Dc9ak8": {
+      "type": "section-columns",
+      "blocks": {
+        "image_7y8Fah": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/W-Whitten_HiddenWaters_0525.jpg",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_yaFkyT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2660.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_kMciBY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7829B108.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_QMTLTj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Flower_Pic_5.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_qCNb3m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1U4A6275.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_TbCefe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/custom_design_photo_5.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_HRLTM8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/custom_design_photo_6.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_CPAidL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/custom_design_photo_7.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_ga6Nkb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/custom_design_photo_8.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_ryhFXN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/custom_design_photo_9.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_y98zGx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/custom_design_photo_10.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_aQyE38": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/custom_design_photo_11.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_QEQGVa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/custom_design_photo_12.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_nHwPDH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/custom_design_photo_13.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_wYxC3F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/custom_design_photo_14.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_7y8Fah",
+        "image_yaFkyT",
+        "image_kMciBY",
+        "image_QMTLTj",
+        "image_qCNb3m",
+        "image_TbCefe",
+        "image_HRLTM8",
+        "image_CPAidL",
+        "image_ga6Nkb",
+        "image_ryhFXN",
+        "image_y98zGx",
+        "image_aQyE38",
+        "image_QEQGVa",
+        "image_nHwPDH",
+        "image_wYxC3F"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-center",
+        "layout": "grid",
+        "grid": 5,
+        "layout_mobile": "1",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 25,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_divider_bb4qf8": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_DKNTQk": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_columns_iJ6Vee": {
+      "type": "section-rich-text-columns",
+      "blocks": {
+        "heading_jtCdN6": {
+          "type": "heading",
+          "settings": {
+            "title": "Why Choose Bloom Culture",
+            "heading_font_size": "heading-large",
+            "position": "left",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "heading_VHhNcY": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Designs Made for Your Wedding ",
+            "heading_font_size": "heading-small",
+            "position": "right",
+            "padding_bottom": 8,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_TXgNc6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every recipe, flower selection, and stem count is tailored to your style, colors, and budget — so your wedding flowers feel personal, intentional, and uniquely yours. </p>",
+            "text_font_size": "body-medium",
+            "position": "right",
+            "padding_bottom": 16
+          }
+        },
+        "heading_CRpiWw": {
+          "type": "heading",
+          "settings": {
+            "title": "Save 60% on Your Wedding Florals ",
+            "heading_font_size": "heading-small",
+            "position": "right",
+            "padding_bottom": 8,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_jCzPK9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With wholesale blooms and a guided DIY plan, most couples save <strong>50–70% </strong>compared to full-service florist pricing — without sacrificing style, quality, or impact.  Bloom Culture customers typically spend <strong>$800–$1,800 </strong>to recreate designs that often quote at <strong>$4,000–$10,000+ </strong>with a traditional florist.<br/><em><strong>For example:  </strong></em>A full-service floral quote of <strong>$8,400</strong>→ our guided DIY plan cost <strong>$1,275</strong>.</p>",
+            "text_font_size": "body-medium",
+            "position": "right",
+            "padding_bottom": 16
+          }
+        },
+        "heading_Fjgaiy": {
+          "type": "heading",
+          "settings": {
+            "title": "No Guessing, No Overbuying ",
+            "heading_font_size": "heading-small",
+            "position": "right",
+            "padding_bottom": 8,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_qp38Hb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We calculate exactly how many stems you need for each arrangement — helping you save money and avoid the overwhelm of trying to figure it out on your own. </p>",
+            "text_font_size": "body-medium",
+            "position": "right",
+            "padding_bottom": 16
+          }
+        },
+        "heading_MNFDnh": {
+          "type": "heading",
+          "settings": {
+            "title": "Experts in DIY Wedding Flowers ",
+            "heading_font_size": "heading-small",
+            "position": "right",
+            "padding_bottom": 8,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_QPhgLB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You’ll work with floral designers who know how to translate professional techniques into simple, achievable steps made for real couples — not pros. </p>",
+            "text_font_size": "body-medium",
+            "position": "right",
+            "padding_bottom": 16
+          }
+        },
+        "heading_4CNnMT": {
+          "type": "heading",
+          "settings": {
+            "title": "Fresh Wholesale Flowers Delivered to You ",
+            "heading_font_size": "heading-small",
+            "position": "right",
+            "padding_bottom": 8,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_rfYHPy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your flowers arrive fresh from the same wholesale farms and distributors used by professional florists — shipped directly to your door and ready to design with our care and handling guides.</p>",
+            "text_font_size": "body-medium",
+            "position": "right",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_jtCdN6",
+        "heading_VHhNcY",
+        "text_TXgNc6",
+        "heading_CRpiWw",
+        "text_jCzPK9",
+        "heading_Fjgaiy",
+        "text_qp38Hb",
+        "heading_MNFDnh",
+        "text_QPhgLB",
+        "heading_4CNnMT",
+        "text_rfYHPy"
+      ],
+      "disabled": true,
+      "name": "Rich text columns",
+      "settings": {
+        "left_column_width": 40,
+        "divider_width": 20,
+        "show_line": true,
+        "right_column_width": 40,
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_text_mobile": "text-left--mobile",
+        "color_scheme": "scheme-1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_divider_N9zUne": {
+      "type": "section-divider",
+      "disabled": true,
+      "name": "Divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "8a57fdf0-1f0f-402e-9ebe-0e1a200f69ed",
+    "section_custom_content_CgTabp",
+    "e0e10395-6498-4da4-85a7-a0b54f088e8e",
+    "2c49db44-4cb6-4530-9af5-51db410b5d08",
+    "baf67c2f-592b-466c-8d72-09294c9b51ae",
+    "section_hero_product_WGfNWH",
+    "section_custom_content_cNbJNE",
+    "section_double_qB39zw",
+    "c44a7852-b408-4772-874d-ea74bdd372e0",
+    "section_columns_Dc9ak8",
+    "section_divider_bb4qf8",
+    "section_divider_DKNTQk",
+    "section_rich_text_columns_iJ6Vee",
+    "main",
+    "section_divider_N9zUne"
+  ]
+}

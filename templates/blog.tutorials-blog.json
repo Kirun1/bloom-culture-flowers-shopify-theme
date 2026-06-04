@@ -1,0 +1,151 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_double_hNBJD8": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_XTcxEi": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_WdYFWK": {
+          "type": "heading",
+          "settings": {
+            "title": "View Our Tutorials",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_M4WD8R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our tutorials cut out the guesswork and teach you the easy and approachable techniques you need to make your wedding flowers look AMAZING. We keep it light and up beat and totally understand that at some point, you’ll think “She made that look SO easy!”. We assure you - it will all turn out beautifully!</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_prttea": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XTcxEi",
+        "heading_WdYFWK",
+        "text_M4WD8R",
+        "buttons_prttea"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Bloom_Culture_LLAYTON-4.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-b554e65b-3af1-4b95-85d5-02f0bf781144",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "e942b0e0-2532-4222-bd21-c6364e0b6032": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--19765588754739__e942b0e0-2532-4222-bd21-c6364e0b6032-16880734182ce68b9e-1": {
+          "type": "heading",
+          "settings": {
+            "title": "View Our Tutorials",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--19765588754739__e942b0e0-2532-4222-bd21-c6364e0b6032-16880734182ce68b9e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our tutorials cut out the guesswork and teach you the easy and approachable techniques you need to make your wedding flowers look AMAZING. We keep it light and up beat and totally understand that at some point, you’ll think “She made that look SO easy!”. We assure you - it will all turn out beautifully!</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "template--19765588754739__e942b0e0-2532-4222-bd21-c6364e0b6032-16880734182ce68b9e-1",
+        "template--19765588754739__e942b0e0-2532-4222-bd21-c6364e0b6032-16880734182ce68b9e-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 10
+      }
+    },
+    "section_divider_6yrDaD": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "blog",
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "show_rss": false,
+        "show_tag_nav": true,
+        "aspect_ratio": 1,
+        "title_font_size": "heading-small",
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": false,
+        "show_comments": false,
+        "grid": 3,
+        "rows": 4,
+        "color_scheme": "",
+        "padding_top": 10,
+        "padding_bottom": 50,
+        "title_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_double_hNBJD8",
+    "e942b0e0-2532-4222-bd21-c6364e0b6032",
+    "section_divider_6yrDaD",
+    "main"
+  ]
+}

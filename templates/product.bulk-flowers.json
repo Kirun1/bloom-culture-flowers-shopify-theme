@@ -1,0 +1,360 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "collection",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "01f9e913-7356-42fb-8c74-8df5767c7f94": {
+          "type": "description",
+          "settings": {
+            "show_read_more": true,
+            "padding_bottom": 20
+          }
+        },
+        "9f93ba5f-fee5-4359-98b5-5c0025d6c36e": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {
+            "show_line": false,
+            "padding_bottom": 34
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "text",
+            "option_font_size": "body-medium",
+            "value_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        },
+        "df4259d7-713f-42da-b457-d28ad5414667": {
+          "type": "tab_richtext",
+          "disabled": true,
+          "settings": {
+            "show_description": true,
+            "show_read_more": false,
+            "title_1": "What You Can Make",
+            "raw_content_1": "",
+            "title_2": "What You Get",
+            "raw_content_2": "<p>Product Variant Metafield</p>",
+            "title_3": "Fine Print",
+            "raw_content_3": "<ul><li>Flowers are not pre-assembled and are DIY (\"DO IT YOURSELF\"). Flowers will need to be arranged by the client with the exception of pre-made garlands. Information on how to care and assemble flowers is provided via DIY Guide and online tutorials</li><li>Bloom Culture does not supply vases, floral supplies and other support items are not included. </li><li>We reserve the right to substitute any flowers or greenery due to seasonality, availability, and/or quality without notifying the client first. </li><li>Please visit our <a href=\"/policies/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">Terms & Conditions</a> page or our FAQ’s page for further information.</li></ul>",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 24
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_dynamic_checkout": false,
+            "button_type_dynamic": "btn--secondary",
+            "button_size_dynamic": "btn--large",
+            "button_style_dynamic": "btn--solid",
+            "show_gift_card_recipient": false,
+            "padding_bottom": 0
+          }
+        },
+        "divider_yAKiFy": {
+          "type": "divider",
+          "settings": {
+            "show_line": false,
+            "padding_bottom": 25
+          }
+        },
+        "features_mdrYnk": {
+          "type": "features",
+          "settings": {
+            "icon_name": "icon-info-empty",
+            "icon_size": 20,
+            "title": "Designer's Note",
+            "text_font_size": "body-medium",
+            "text": "<p>Please note that color may differ slightly from how it appears on your screen due to varying monitor settings. </p>",
+            "bg_color": "#ece7e9",
+            "color": "#212121",
+            "padding_bottom": 16
+          }
+        },
+        "divider_VUm4cr": {
+          "type": "divider",
+          "settings": {
+            "show_line": false,
+            "padding_bottom": 25
+          }
+        },
+        "text_Nb96px": {
+          "type": "text",
+          "settings": {
+            "title": "$350 Order Minimum",
+            "heading_font_size": "body-medium",
+            "text": "<p>Mix-and-match any of our <a href=\"/collections/bulk-flowers\" title=\"À La Carte Flowers\">À La Carte Flowers</a> - check out with just a $350 minimum order. </p>",
+            "text_font_size": "body-medium",
+            "text_alignment": "text-left",
+            "layout": "left",
+            "padding_bottom": 16
+          }
+        },
+        "divider_4CgKBU": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "complementary_products_th7PWK": {
+          "type": "complementary-products",
+          "settings": {
+            "complementary_limit": 3,
+            "layout": "slider",
+            "autoplay": true,
+            "autoplay_speed": 8,
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        },
+        "ef26b3b5-acbd-4ab1-a02c-505142dbbc4b": {
+          "type": "text",
+          "settings": {
+            "title": "Need some help before ordering?",
+            "heading_font_size": "body-medium",
+            "text": "<p><a href=\"/pages/contact\" title=\"Contact\">Contact Us</a></p>",
+            "text_font_size": "body-medium",
+            "text_alignment": "text-left",
+            "layout": "left",
+            "padding_bottom": 32
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "01f9e913-7356-42fb-8c74-8df5767c7f94",
+        "9f93ba5f-fee5-4359-98b5-5c0025d6c36e",
+        "variants",
+        "df4259d7-713f-42da-b457-d28ad5414667",
+        "buttons",
+        "divider_yAKiFy",
+        "features_mdrYnk",
+        "divider_VUm4cr",
+        "text_Nb96px",
+        "divider_4CgKBU",
+        "complementary_products_th7PWK",
+        "ef26b3b5-acbd-4ab1-a02c-505142dbbc4b"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "variant_image_scroll": true,
+        "show_cart_bar": true,
+        "enable_zoom": false,
+        "enable_video_looping": false,
+        "image_layout": "thumbnails",
+        "image_size": "normal",
+        "mobile_image_style": "thumbs",
+        "color_scheme": "",
+        "padding_top": 90,
+        "padding_bottom": 10
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Related Products"
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "product_recently_heading": "Recently Viewed Products"
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_font_size": "heading-small",
+        "limit": 4,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "2",
+        "color_scheme": "scheme-1",
+        "padding_top": 32,
+        "padding_bottom": 75
+      }
+    },
+    "blocks_8Jgpm9": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_67beea0_4PchYE": {
+          "type": "ai_gen_block_67beea0",
+          "settings": {
+            "section_heading": "",
+            "section_heading_tag": "h2",
+            "section_heading_size": 32,
+            "section_heading_size_mobile": 22,
+            "section_heading_spacing": 40,
+            "section_heading_spacing_mobile": 32,
+            "background_image": "shopify://shop_images/Bloom_Culture_LLAYTON-167.jpg",
+            "overlay_color": "#f7f6f0",
+            "overlay_opacity": 0.5,
+            "box_bg_color": "#f7f6f0",
+            "box_border_color": "#3b3b3b",
+            "box_border_hover_color": "#2a2a2a",
+            "box_1_icon": "shopify://shop_images/bcf_green_truck.png",
+            "box_1_heading": "Fast Shipping",
+            "box_1_description": "Fast delivery means your flowers arrive in great condition.",
+            "box_2_icon": "shopify://shop_images/bcf_green_flower_icon_a82cab06-3529-4424-bc52-b8d9241748ec.png",
+            "box_2_heading": "All the Flowers",
+            "box_2_description": "Includes all the flowers & greenery to make the items shown in each package.",
+            "box_3_icon": "shopify://shop_images/bcf_green_clipboard.png",
+            "box_3_heading": "DIY with Confidence",
+            "box_3_description": "Resources, support & tutorials to help you succeed.",
+            "heading_size": 20,
+            "heading_size_mobile": 18,
+            "description_size": 15,
+            "description_size_mobile": 14,
+            "icon_size": 70,
+            "icon_size_mobile": 60,
+            "section_padding_top": 60,
+            "section_padding_bottom": 60,
+            "section_padding_horizontal": 40,
+            "section_padding_top_mobile": 40,
+            "section_padding_bottom_mobile": 40,
+            "section_padding_horizontal_mobile": 20,
+            "box_spacing": 30,
+            "box_spacing_mobile": 20,
+            "box_padding": 40,
+            "icon_spacing": 20,
+            "heading_spacing": 15,
+            "enable_animation": true
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_67beea0_4PchYE"
+      ],
+      "name": "Image banner with boxes",
+      "settings": {}
+    },
+    "section_custom_content_AemGAx": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_iCQdY4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BlankenshipWedding_MBP_-279_4bb0f69a-f2df-4476-b671-ca0d2ce0a374.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_TXDPd9": {
+          "type": "text",
+          "settings": {
+            "subheading": "NOT SURE WHERE TO START?",
+            "title": "DIY Flower Consultation",
+            "heading_font_size": "heading-large",
+            "text": "<p>Get a 30-minute call with a professional floral designer who will help you figure out <em>exactly </em>what you need. We’ll talk through your budget, colors, inspiration photos, flower varieties, and what goes where. Oh! and answer every question you’ve been Googling at 1 AM. <br/><br/>Walk away with a clear plan, expert guidance, and total confidence in your wedding flowers.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Get Expert Help",
+            "button_url": "shopify://products/diy-flower-consultation",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_iCQdY4",
+        "text_TXDPd9"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": true,
+        "gutters": true,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 75,
+        "padding_bottom": 50
+      }
+    },
+    "1686850020afa2a38e": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related",
+    "blocks_8Jgpm9",
+    "section_custom_content_AemGAx",
+    "1686850020afa2a38e"
+  ]
+}

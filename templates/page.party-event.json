@@ -1,0 +1,243 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "3b233ee2-1b0d-43a7-bc8c-f150ea1d0c93": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--19029102494003__3b233ee2-1b0d-43a7-bc8c-f150ea1d0c93-168357345072502bfb-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "WE HELP YOU BE CREATIVE WITH EASY DIY FLOWERS.",
+            "padding_bottom": 16
+          }
+        },
+        "template--19029102494003__3b233ee2-1b0d-43a7-bc8c-f150ea1d0c93-168357345072502bfb-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Party Collections",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--19029102494003__3b233ee2-1b0d-43a7-bc8c-f150ea1d0c93-168357345072502bfb-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>First let’s figure out what type of party you want to throw!</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "template--19029102494003__3b233ee2-1b0d-43a7-bc8c-f150ea1d0c93-168357345072502bfb-0",
+        "template--19029102494003__3b233ee2-1b0d-43a7-bc8c-f150ea1d0c93-168357345072502bfb-1",
+        "template--19029102494003__3b233ee2-1b0d-43a7-bc8c-f150ea1d0c93-168357345072502bfb-2"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "color_scheme": "scheme-b554e65b-3af1-4b95-85d5-02f0bf781144",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "7ed38a13-52d0-4079-bad3-a4d8cc32079b": {
+      "type": "section-double",
+      "blocks": {
+        "a57be170-0fab-4b8e-b076-0dad13880759": {
+          "type": "heading",
+          "settings": {
+            "title": "PARTY FLOWERS",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--19029102494003__7ed38a13-52d0-4079-bad3-a4d8cc32079b-16835735106f9f7dbd-0": {
+          "type": "heading",
+          "settings": {
+            "title": "DIY Floral Decor",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--19029102494003__7ed38a13-52d0-4079-bad3-a4d8cc32079b-16835735106f9f7dbd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you want to DIY flowers for a small event or gathering? This package is for flower arrangements you make ahead of time for decor at a small party or celebration.</p><p>Perfect for:</p><ul><li>Engagement Party</li><li>Bridal Shower</li><li>Baby Shower</li><li>Bach Night In</li><li>Welcome Dinner</li><li>Birthday Dinner</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "a57be170-0fab-4b8e-b076-0dad13880759",
+        "template--19029102494003__7ed38a13-52d0-4079-bad3-a4d8cc32079b-16835735106f9f7dbd-0",
+        "template--19029102494003__7ed38a13-52d0-4079-bad3-a4d8cc32079b-16835735106f9f7dbd-1"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/image-asset_3.jpg",
+        "image_width": "three-quarters",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "1c4fe6d8-21da-45a7-a168-115006fbb317": {
+      "type": "section-double",
+      "blocks": {
+        "8f89b1d6-f59d-4bd1-a528-2a48ce2a162e": {
+          "type": "heading",
+          "settings": {
+            "title": "FLOWER BAR",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "4c6ef3d4-c861-4e5a-bd78-baa6a29600c0": {
+          "type": "heading",
+          "settings": {
+            "title": "Host a DIY Flower Party",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "37d3b507-c6d2-4dd5-95b3-66161ba3f04a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you want to host a party for friends to DIY flowers at a gathering? This package is to arrange flowers with your friends/attendees and they get to take them home! Think Flower Bar!</p><p>Perfect for:</p><ul><li>Make & Take Party</li><li>Girl's Night</li><li>Birthday Party</li><li>Bridal Shower</li><li>Baby Shower</li><li>Galentines</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "8f89b1d6-f59d-4bd1-a528-2a48ce2a162e",
+        "4c6ef3d4-c861-4e5a-bd78-baa6a29600c0",
+        "37d3b507-c6d2-4dd5-95b3-66161ba3f04a"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/image-asset_4.jpg",
+        "image_width": "three-quarters",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-b554e65b-3af1-4b95-85d5-02f0bf781144",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "8e319f3d-71fd-4385-adc9-6f5ae544002e": {
+      "type": "section-double",
+      "blocks": {
+        "e736839c-6719-4f41-9e85-2c7724ee91b1": {
+          "type": "heading",
+          "settings": {
+            "title": "WEDDING FLOWERS",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "053fcc67-7e55-4b3f-bd94-dc2b2b16ff21": {
+          "type": "heading",
+          "settings": {
+            "title": "Micro Wedding",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "4b2df00b-3e2d-41d7-bf16-2d48d9bb1f48": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Recently, things have changed a bit but that doesn’t meant you shouldn’t get to celebrate in style! No matter what your guest list count is, we’re here to help you make it beautiful! Create space for once-in-a-lifetime memories with DIY micro wedding flowers.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "e736839c-6719-4f41-9e85-2c7724ee91b1",
+        "053fcc67-7e55-4b3f-bd94-dc2b2b16ff21",
+        "4b2df00b-3e2d-41d7-bf16-2d48d9bb1f48"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/image-asset_5.jpg",
+        "image_width": "three-quarters",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "4006ba17-668c-49b7-b731-d31a4dab59d4": {
+      "type": "section-product",
+      "disabled": true,
+      "settings": {
+        "product": "",
+        "show_product_card": false,
+        "layout": "",
+        "limit": 5,
+        "scrolling_styles": "vertical",
+        "horizontal_scroll": false,
+        "color_scheme": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "3b233ee2-1b0d-43a7-bc8c-f150ea1d0c93",
+    "7ed38a13-52d0-4079-bad3-a4d8cc32079b",
+    "1c4fe6d8-21da-45a7-a168-115006fbb317",
+    "8e319f3d-71fd-4385-adc9-6f5ae544002e",
+    "4006ba17-668c-49b7-b731-d31a4dab59d4",
+    "main"
+  ]
+}

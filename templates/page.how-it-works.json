@@ -1,0 +1,587 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_zWUG9g": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_rqnprR": {
+          "type": "heading",
+          "settings": {
+            "title": "How It Works",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_RDAbhn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DIY wedding flowers don’t have to feel overwhelming. With Bloom Culture, you get premium wholesale flowers, easy-to-follow recipes, and step-by-step guidance from real floral designers, so you can create stunning wedding flowers without stress, confusion, or overspending.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 8
+          }
+        },
+        "button_pXYPDx": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_rqnprR",
+        "text_RDAbhn",
+        "button_pXYPDx"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/remove_the_plate_and_all_glass_Nano_Banana_2_41935.webp",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-two-thirds",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "flex_align_mobile": "align--top-center-mobile",
+        "color_scheme": "",
+        "show_text_background": true,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "80fd09a0-2bff-4dd2-b89a-ddedc964246d": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--20102024659251__80fd09a0-2bff-4dd2-b89a-ddedc964246d-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "padding_bottom": 16
+          }
+        },
+        "template--20102024659251__80fd09a0-2bff-4dd2-b89a-ddedc964246d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Your DIY Floral Process, Made Simple.",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--20102024659251__80fd09a0-2bff-4dd2-b89a-ddedc964246d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're designing one bouquet or a full wedding, our five-step process walks you through exactly what to order, when your flowers arrive, and how to arrange everything beautifully. No guesswork, just clarity and confidence from start to finish.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "template--20102024659251__80fd09a0-2bff-4dd2-b89a-ddedc964246d-subheading-1",
+        "template--20102024659251__80fd09a0-2bff-4dd2-b89a-ddedc964246d-heading-1",
+        "template--20102024659251__80fd09a0-2bff-4dd2-b89a-ddedc964246d-text-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "87b40fc7-91af-4f48-a2f8-bbe34a196bbe": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--19734100967731__87b40fc7-91af-4f48-a2f8-bbe34a196bbe-1687982126cae07230-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "STEP 1",
+            "title": "Pick Your Flower Kit",
+            "heading_font_size": "heading-large",
+            "text": "<p>Choose from our DIY flower kits, each designed around trending color palettes, reliable recipes, and professional flower selections. Each kit includes the exact flowers and recipes you need — no guesswork required.</p><ul><li>Color palettes thoughtfully selected by our floral designers</li><li>Easy-to-follow recipes included with each collection</li><li>Consistent quality + seasonal availability</li><li>Free DIY Planner and Tutorials </li><li>Love a vibe but want tweaks? Customize anytime with our custom design options</li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "rgba(0,0,0,0)",
+            "color": "rgba(0,0,0,0)",
+            "heading_tag": "automatic"
+          }
+        },
+        "template--19734100967731__87b40fc7-91af-4f48-a2f8-bbe34a196bbe-1687982126cae07230-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pick_collections_mock-up.png",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "template--19734100967731__87b40fc7-91af-4f48-a2f8-bbe34a196bbe-1687982126cae07230-1",
+        "template--19734100967731__87b40fc7-91af-4f48-a2f8-bbe34a196bbe-1687982126cae07230-0"
+      ],
+      "settings": {
+        "borders": true,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e28557dc-50d6-4d76-aa7d-ae1de24a73e9": {
+      "type": "section-custom-content",
+      "blocks": {
+        "7c09a06e-a0d5-4c37-8871-1db5ddf2251d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloom_Culture_LLAYTON-25_ee4e1559-232d-415a-925e-34abc5630b6a.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "8bf5211a-b58a-4140-9491-bfb664a4949b": {
+          "type": "text",
+          "settings": {
+            "subheading": "STEP 2",
+            "title": "Choose Your Package Size",
+            "heading_font_size": "heading-large",
+            "text": "<p>Every wedding is different — that’s why each kit offers five package sizes. From intimate elopements to grand celebrations, you’ll find a package that fits the number of flower arrangements you need and your budget.<br/><br/><strong>What’s included:</strong></p><ul><li>Packages for intimate, small, medium, large, and grand weddings</li><li>Stem counts built to fit your chosen package</li><li>All flowers + greenery needed for the included recipes</li><li>Option to scale up or add on if needed</li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "rgba(0,0,0,0)",
+            "color": "#000000",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "7c09a06e-a0d5-4c37-8871-1db5ddf2251d",
+        "8bf5211a-b58a-4140-9491-bfb664a4949b"
+      ],
+      "settings": {
+        "borders": true,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "741f30f1-f709-45a8-b533-8caa1837d3ec": {
+      "type": "section-custom-content",
+      "blocks": {
+        "39159d71-a401-40ac-8236-81520f5f5d3f": {
+          "type": "text",
+          "settings": {
+            "subheading": "STEP 3",
+            "title": "Order & Select Your Shipping Date",
+            "heading_font_size": "heading-large",
+            "text": "<p>Choose the shipping date that works best for your event. Our shipping schedule ensures your flowers arrive fresh and ready to prep.<strong>How shipping works:</strong></p><ul><li>Orders ship Monday & Tuesday </li><li>Flowers arrive in 1–2 business days</li><li>We recommend selecting a ship date 3-4<strong> days before your wedding</strong></li><li>You’ll receive prep instructions so your blooms stay healthy and beautiful<br/></li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "rgba(0,0,0,0)",
+            "color": "rgba(0,0,0,0)",
+            "heading_tag": "automatic"
+          }
+        },
+        "efc02f4d-2a1f-4769-a92d-11f340c689f7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloom_Culture_LLAYTON-88.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "39159d71-a401-40ac-8236-81520f5f5d3f",
+        "efc02f4d-2a1f-4769-a92d-11f340c689f7"
+      ],
+      "settings": {
+        "borders": true,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "045713ed-a369-4a99-abd3-e7093f4cc1e2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "e8d38753-dada-479d-8646-9ac494746168": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloom_Culture_LLAYTON-92.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "3b1b4d7e-b89a-45a5-b951-fc1afd7a1b68": {
+          "type": "text",
+          "settings": {
+            "subheading": "STEP 4",
+            "title": "Unbox, Hydrate & Prep Your Flowers",
+            "heading_font_size": "heading-large",
+            "text": "<p>When your blooms arrive, you’ll know exactly what to do. Your DIY Planner includes step-by-step instructions on how to unbox, clean, trim, and hydrate the flowers.<br/><strong>We’ll show you how to:</strong></p><ul><li>Properly hydrate your flowers for the longest vase life</li><li>Store them at ideal temperatures</li><li>Prep everything ahead of arranging day</li><li>Avoid common beginner mistakes</li><li>Feel confident during every step </li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "rgba(0,0,0,0)",
+            "color": "rgba(0,0,0,0)",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "e8d38753-dada-479d-8646-9ac494746168",
+        "3b1b4d7e-b89a-45a5-b951-fc1afd7a1b68"
+      ],
+      "settings": {
+        "borders": true,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "580b4586-631b-49a8-b013-0ac85f6b5277": {
+      "type": "section-custom-content",
+      "blocks": {
+        "2f7d206a-92ee-41a1-88eb-af6228cc1af6": {
+          "type": "text",
+          "settings": {
+            "subheading": "STEP 5",
+            "title": "DIY With Confidence",
+            "heading_font_size": "heading-large",
+            "text": "<p>Our full DIY Guide includes everything needed to create arrangements you’re proud of — even if you’ve never arranged flowers before.<br/><strong>Inside the DIY Flower Planner:</strong></p><ul><li><strong>Floral Timeline </strong>- A clear schedule showing exactly <em>when</em> to prep, hydrate, arrange, and store your flowers  - plus how long each arrangement should take. </li><li><strong>Flower Care Guides</strong> - Simple instructions for handling, conditioning, and storing each flower type so everything looks its best on wedding day.</li><li><strong>Step-by-Step Tutorials</strong> - Easy-to-follow walkthroughs for bouquets, centerpieces, boutonnieres, and more — designed for total beginners.</li><li><strong>Supplies Checklist</strong> - A complete list of what you’ll need, with links to affordable tools we actually recommend.</li><li><strong>Video Tutorials</strong> - Watch real designers build each arrangement so you can follow along with confidence.</li></ul><p>You’ll have all the knowledge and support you need to DIY like a pro.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "rgba(0,0,0,0)",
+            "color": "rgba(0,0,0,0)",
+            "heading_tag": "automatic"
+          }
+        },
+        "ea4ba6dc-0a44-468a-9869-b657df49a9ed": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloom_Culture_LLAYTON-108.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "2f7d206a-92ee-41a1-88eb-af6228cc1af6",
+        "ea4ba6dc-0a44-468a-9869-b657df49a9ed"
+      ],
+      "settings": {
+        "borders": true,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_fXGP7c": {
+      "type": "section-columns",
+      "blocks": {
+        "image_dDVqyE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AutumnCollection_dc886bbd-b77c-42b0-9f08-ee2526381e47.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "Explore Our DIY Flower Kits",
+            "heading_font_size": "heading-small",
+            "text": "<p>Perfect if you want a curated, ready-to-go option with recipes, color palettes, and all the flowers you need pre-selected by floral designers.<br/><br/><strong>Best for:<br/></strong>✔ couples who know their color palette<br/>✔ anyone wanting a simple, beautiful solution<br/>✔ weddings with standard floral needs</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Shop DIY Flower Kits",
+            "button_url": "shopify://collections/diy-collections",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_xYGQ9b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BlankenshipWedding_MBP_-279_4bb0f69a-f2df-4476-b671-ca0d2ce0a374.jpg",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "Get a Custom Floral Plan Designed for You",
+            "heading_font_size": "heading-small",
+            "text": "<p>Ideal if you have a specific vision, want something unique, or need help choosing the right flowers and quantities for your wedding style and budget.<br/><br/><strong>Best for:<br/></strong>✔ custom color palettes<br/>✔ unique vibes + floral styles<br/>✔ couples who want expert guidance<br/>✔ non-traditional weddings or larger events</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Start Your Custom Design",
+            "button_url": "shopify://pages/custom-floral-design",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_dDVqyE",
+        "image_xYGQ9b"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Choose Your DIY Path",
+        "heading_font_size": "heading-large",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 2,
+        "layout_mobile": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_hero_product_f3UJGr": {
+      "type": "section-hero-product",
+      "blocks": {
+        "heading_wirDXM": {
+          "type": "heading",
+          "settings": {
+            "title": "New DIY Flower Planner",
+            "heading_font_size": "heading-large",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_XMeteY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Not ready to dive in just yet? The DIY Wedding Flower Planner walks you through everything — step by step, at your own pace.</p>",
+            "text_font_size": "body-large"
+          }
+        },
+        "button_EL3yqF": {
+          "type": "button",
+          "settings": {
+            "link_text": "Get the Planner - $49",
+            "link": "shopify://pages/diy-wedding-flowers-planner",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wirDXM",
+        "text_XMeteY",
+        "button_EL3yqF"
+      ],
+      "name": "Image with product",
+      "settings": {
+        "image_1": "shopify://shop_images/2_Image_5_da239954-9a5e-419d-8d04-dadec512f515.png",
+        "link": "",
+        "product": "diy-wedding-flower-planner",
+        "description": "*or FREE with any purchase",
+        "text_font_size": "body-small",
+        "enable_quick_add": true,
+        "color_product_bg": "#F5F2EC",
+        "color_product_text": "#212121",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "flex_align_mobile": "align--middle-left-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "Info Coming Soon",
+        "show_title": false,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_hero_zWUG9g",
+    "80fd09a0-2bff-4dd2-b89a-ddedc964246d",
+    "87b40fc7-91af-4f48-a2f8-bbe34a196bbe",
+    "e28557dc-50d6-4d76-aa7d-ae1de24a73e9",
+    "741f30f1-f709-45a8-b533-8caa1837d3ec",
+    "045713ed-a369-4a99-abd3-e7093f4cc1e2",
+    "580b4586-631b-49a8-b013-0ac85f6b5277",
+    "section_columns_fXGP7c",
+    "section_hero_product_f3UJGr",
+    "main"
+  ]
+}

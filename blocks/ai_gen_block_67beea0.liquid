@@ -1,0 +1,811 @@
+{% doc %}
+  @prompt
+    Create a custom image banner section that replaces the standard “How It Works” layout.
+    
+    The section should include:
+    
+    A full-width background image (user can upload one of the brand’s floral images).
+    
+    A white or cream overlay option for legibility (adjustable opacity).
+    
+    On top of the background image, add three equal-width boxes horizontally on desktop and stacked vertically on mobile.
+    
+    Each box should include:
+    
+    A cream-colored background (#F7F6F0)
+    
+    A 1px border (#3B3B3B)
+    
+    A custom icon image upload field (user can upload icons manually; do not hardcode SVGs)
+    
+    A heading in the brand’s text color (#131F15)
+    
+    A short paragraph description beneath the heading, also in #131F15
+    
+    The layout should feel editorial, clean, and premium, with generous spacing and vertical rhythm.
+    
+    Customization options:
+    
+    Replace the background image
+    
+    Adjust overlay opacity
+    
+    Edit text and headings directly in Shopify
+    
+    Swap out icons per box
+    
+    Adjust spacing and padding between boxes
+    
+    Option to toggle subtle scroll or fade-up animation for each box
+    
+    The design should feel fresh and floral but elevated, aligning with a modern wedding brand aesthetic.
+    
+    For hover states, when hovering over each box, the border can darken slightly (e.g., #2A2A2A)., The background image should sit behind the three cream boxes, not above them. The current layout places the image on top — please move it so it functions as a photo banner background behind the section.
+    
+    Each box should retain the cream background (#F7F6F0) and the 1px border (#3B3B3B).
+    
+    The text hierarchy should follow the site’s existing theme typography. The “Step One / Step Two / Step Three” headings currently appear too bold — please adjust to the correct heading style from the site’s font system (likely H4 or H5, whichever is consistent with other section headings). Use the standard brand font weight and spacing for visual consistency.
+    
+    Ensure that all text uses the brand’s body color #131F15, and that spacing between boxes is even.
+    
+    On mobile, stack the boxes vertically with balanced margins and maintain visibility of the background image., How-It-Works (v2) follow-up — add heading + size control
+    
+    Place a section heading centered above the three boxes: default text “How It Works”.
+    
+    Use the site’s heading font and color #131F15.
+    
+    Heading tag is selectable: allow H2 or H3 (default H2).
+    
+    Provide a size control for the heading:
+    
+    Desktop: adjustable 22–40px (default 32px).
+    
+    Mobile: adjustable 18–28px (default 22px).
+    
+    Use fluid sizing if available (e.g., clamp()).
+    
+    Keep top/bottom spacing controls so we can tighten it against the boxes (e.g., 24–64px).
+    
+    Keep the rest exactly as you set (for completeness)
+    
+    Background image is a photo banner behind the boxes (not on top).
+    
+    Each box: cream #F7F6F0, 1px border #3B3B3B, text #131F15.
+    
+    “Step One/Two/Three” use the theme’s heading style (lighter weight—match H4/H5 as per theme, not extra bold).
+    
+    Icons are image uploads we can replace.
+    
+    Mobile stacks boxes vertically with even spacing and the background image still visible.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+ .ai-image-banner-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    /* ✅ critical */
+    display: block;
+    isolation: isolate; /* keeps z-index layering sane */
+  }
+
+  .ai-image-banner__background-{{ ai_gen_id }} {
+    z-index: 0; /* background layer */
+  }
+
+  .ai-image-banner__content-{{ ai_gen_id }} {
+    z-index: 1; /* content layer */
+  }
+
+  .ai-image-banner-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .ai-image-banner__background-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+
+  .ai-image-banner__background-{{ ai_gen_id }}::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: {{ block.settings.overlay_color }};
+    opacity: {{ block.settings.overlay_opacity }};
+    pointer-events: none;
+  }
+
+  .ai-image-banner__placeholder-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  .ai-image-banner__placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 400px;
+  }
+
+  .ai-image-banner__empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  .ai-image-banner__content-{{ ai_gen_id }} {
+    position: relative;
+    z-index: 2;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: {{ block.settings.section_padding_top }}px {{ block.settings.section_padding_horizontal }}px {{ block.settings.section_padding_bottom }}px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ai-image-banner__section-heading-{{ ai_gen_id }} {
+    color: #131F15;
+    font-size: clamp({{ block.settings.section_heading_size_mobile }}px, 4vw, {{ block.settings.section_heading_size }}px);
+    font-family: var(--font-heading-family);
+    font-weight: var(--font-heading-weight);
+    letter-spacing: var(--font-heading-spacing);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 0 {{ block.settings.section_heading_spacing }}px;
+  }
+
+  .ai-image-banner__boxes-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: {{ block.settings.box_spacing }}px;
+    width: 100%;
+  }
+
+  .ai-image-banner__box-{{ ai_gen_id }} {
+    background-color: {{ block.settings.box_bg_color }};
+    border: 1px solid {{ block.settings.box_border_color }};
+    padding: {{ block.settings.box_padding }}px;
+    text-align: center;
+    transition: border-color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+
+  {% if block.settings.enable_animation %}
+    .ai-image-banner__box-{{ ai_gen_id }}.animate-in {
+      animation: ai-fade-up-{{ ai_gen_id }} 0.6s ease-out forwards;
+    }
+
+    .ai-image-banner__box-{{ ai_gen_id }}:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+
+    .ai-image-banner__box-{{ ai_gen_id }}:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .ai-image-banner__box-{{ ai_gen_id }}:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+
+    @keyframes ai-fade-up-{{ ai_gen_id }} {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  {% else %}
+    .ai-image-banner__box-{{ ai_gen_id }} {
+      opacity: 1;
+    }
+  {% endif %}
+
+  .ai-image-banner__box-{{ ai_gen_id }}:hover {
+    border-color: {{ block.settings.box_border_hover_color }};
+  }
+
+  .ai-image-banner__icon-wrapper-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.icon_spacing }}px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ai-image-banner__icon-{{ ai_gen_id }} {
+    max-width: {{ block.settings.icon_size }}px;
+    height: auto;
+    display: block;
+  }
+
+  .ai-image-banner__icon-placeholder-{{ ai_gen_id }} {
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    background-color: #e8e8e8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-image-banner__icon-placeholder-{{ ai_gen_id }} svg {
+    width: 50%;
+    height: 50%;
+    opacity: 0.3;
+  }
+
+  .ai-image-banner__heading-{{ ai_gen_id }} {
+    color: #131F15;
+    font-size: {{ block.settings.heading_size }}px;
+    margin: 0 0 {{ block.settings.heading_spacing }}px;
+    font-family: var(--font-heading-family);
+    font-weight: var(--font-heading-weight);
+    letter-spacing: var(--font-heading-spacing);
+    line-height: 1.3;
+  }
+
+  .ai-image-banner__description-{{ ai_gen_id }} {
+    color: #131F15;
+    font-size: {{ block.settings.description_size }}px;
+    margin: 0;
+    line-height: 1.6;
+    font-family: var(--font-body-family);
+    font-weight: var(--font-body-weight);
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-image-banner__boxes-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: {{ block.settings.box_spacing_mobile }}px;
+    }
+
+    .ai-image-banner__content-{{ ai_gen_id }} {
+      padding: {{ block.settings.section_padding_top_mobile }}px {{ block.settings.section_padding_horizontal_mobile }}px {{ block.settings.section_padding_bottom_mobile }}px;
+      min-height: 400px;
+    }
+
+    .ai-image-banner__section-heading-{{ ai_gen_id }} {
+      margin-bottom: {{ block.settings.section_heading_spacing_mobile }}px;
+    }
+
+    .ai-image-banner__heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.heading_size_mobile }}px;
+    }
+
+    .ai-image-banner__description-{{ ai_gen_id }} {
+      font-size: {{ block.settings.description_size_mobile }}px;
+    }
+
+    .ai-image-banner__icon-{{ ai_gen_id }} {
+      max-width: {{ block.settings.icon_size_mobile }}px;
+    }
+
+    .ai-image-banner__icon-placeholder-{{ ai_gen_id }} {
+      width: {{ block.settings.icon_size_mobile }}px;
+      height: {{ block.settings.icon_size_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<image-banner-{{ ai_gen_id }} class="ai-image-banner-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.background_image %}
+    <div
+      class="ai-image-banner__background-{{ ai_gen_id }}"
+      style="background-image: url('{{ block.settings.background_image | image_url: width: 2400 }}');"
+    ></div>
+  {% else %}
+    <div class="ai-image-banner__placeholder-{{ ai_gen_id }}">
+      {{ 'lifestyle-1' | placeholder_svg_tag }}
+      <div class="ai-image-banner__empty-state-{{ ai_gen_id }}">
+        Add a background image to get started
+      </div>
+    </div>
+  {% endif %}
+
+  <div class="ai-image-banner__content-{{ ai_gen_id }}">
+    {% if block.settings.section_heading != blank %}
+      {% if block.settings.section_heading_tag == 'h2' %}
+        <h2 class="ai-image-banner__section-heading-{{ ai_gen_id }}">{{ block.settings.section_heading }}</h2>
+      {% else %}
+        <h3 class="ai-image-banner__section-heading-{{ ai_gen_id }}">{{ block.settings.section_heading }}</h3>
+      {% endif %}
+    {% endif %}
+
+    <div class="ai-image-banner__boxes-{{ ai_gen_id }}">
+      {% for i in (1..3) %}
+        {% liquid
+          assign icon_key = 'box_' | append: i | append: '_icon'
+          assign heading_key = 'box_' | append: i | append: '_heading'
+          assign description_key = 'box_' | append: i | append: '_description'
+
+          assign box_icon = block.settings[icon_key]
+          assign box_heading = block.settings[heading_key]
+          assign box_description = block.settings[description_key]
+        %}
+
+        <div class="ai-image-banner__box-{{ ai_gen_id }}" data-box-index="{{ i }}">
+          <div class="ai-image-banner__icon-wrapper-{{ ai_gen_id }}">
+            {% if box_icon %}
+              <img
+                src="{{ box_icon | image_url: width: 400 }}"
+                alt="{{ box_heading | escape }}"
+                class="ai-image-banner__icon-{{ ai_gen_id }}"
+                loading="lazy"
+                width="400"
+                height="400"
+              >
+            {% else %}
+              <div class="ai-image-banner__icon-placeholder-{{ ai_gen_id }}">
+                {{ 'image' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+          </div>
+
+          {% if box_heading != blank %}
+            <h4 class="ai-image-banner__heading-{{ ai_gen_id }}">{{ box_heading }}</h4>
+          {% endif %}
+
+          {% if box_description != blank %}
+            <div class="ai-image-banner__description-{{ ai_gen_id }}">{{ box_description }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</image-banner-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ImageBanner{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.animationEnabled = {{ block.settings.enable_animation | json }};
+      }
+
+      connectedCallback() {
+        if (this.animationEnabled) {
+          this.setupScrollAnimation();
+        }
+      }
+
+      setupScrollAnimation() {
+        const boxes = this.querySelectorAll('.ai-image-banner__box-{{ ai_gen_id }}');
+        
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('animate-in');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.1,
+          rootMargin: '0px 0px -50px 0px'
+        });
+
+        boxes.forEach(box => {
+          observer.observe(box);
+        });
+      }
+    }
+
+    customElements.define('image-banner-{{ ai_gen_id }}', ImageBanner{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Image banner with boxes",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section heading"
+    },
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Heading",
+      "default": "How It Works"
+    },
+    {
+      "type": "select",
+      "id": "section_heading_tag",
+      "label": "Heading tag",
+      "options": [
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "range",
+      "id": "section_heading_size",
+      "min": 22,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading size",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "section_heading_size_mobile",
+      "min": 18,
+      "max": 28,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading size mobile",
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "section_heading_spacing",
+      "min": 24,
+      "max": 64,
+      "step": 4,
+      "unit": "px",
+      "label": "Heading bottom spacing",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "section_heading_spacing_mobile",
+      "min": 24,
+      "max": 64,
+      "step": 4,
+      "unit": "px",
+      "label": "Heading bottom spacing mobile",
+      "default": 32
+    },
+    {
+      "type": "header",
+      "content": "Background image"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay color",
+      "default": "#F7F6F0"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "label": "Overlay opacity",
+      "default": 0.5
+    },
+    {
+      "type": "header",
+      "content": "Box style"
+    },
+    {
+      "type": "color",
+      "id": "box_bg_color",
+      "label": "Background color",
+      "default": "#F7F6F0"
+    },
+    {
+      "type": "color",
+      "id": "box_border_color",
+      "label": "Border color",
+      "default": "#3B3B3B"
+    },
+    {
+      "type": "color",
+      "id": "box_border_hover_color",
+      "label": "Border hover color",
+      "default": "#2A2A2A"
+    },
+    {
+      "type": "header",
+      "content": "Box 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "box_1_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "box_1_heading",
+      "label": "Heading",
+      "default": "Step One"
+    },
+    {
+      "type": "textarea",
+      "id": "box_1_description",
+      "label": "Description",
+      "default": "Browse our curated collection of premium floral arrangements designed for your special day."
+    },
+    {
+      "type": "header",
+      "content": "Box 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "box_2_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "box_2_heading",
+      "label": "Heading",
+      "default": "Step Two"
+    },
+    {
+      "type": "textarea",
+      "id": "box_2_description",
+      "label": "Description",
+      "default": "Customize your selections with our expert team to match your wedding vision perfectly."
+    },
+    {
+      "type": "header",
+      "content": "Box 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "box_3_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "box_3_heading",
+      "label": "Heading",
+      "default": "Step Three"
+    },
+    {
+      "type": "textarea",
+      "id": "box_3_description",
+      "label": "Description",
+      "default": "Relax as we deliver and set up your beautiful florals on your wedding day."
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 14,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Box heading size",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "min": 14,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Box heading size mobile",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "description_size_mobile",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size mobile",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Icon settings"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "min": 40,
+      "max": 120,
+      "step": 10,
+      "unit": "px",
+      "label": "Icon size",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "icon_size_mobile",
+      "min": 40,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Icon size mobile",
+      "default": 60
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "min": 20,
+      "max": 120,
+      "step": 10,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "min": 20,
+      "max": 120,
+      "step": 10,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "section_padding_horizontal",
+      "min": 20,
+      "max": 80,
+      "step": 10,
+      "unit": "px",
+      "label": "Horizontal padding",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top_mobile",
+      "min": 20,
+      "max": 80,
+      "step": 10,
+      "unit": "px",
+      "label": "Top padding mobile",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom_mobile",
+      "min": 20,
+      "max": 80,
+      "step": 10,
+      "unit": "px",
+      "label": "Bottom padding mobile",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "section_padding_horizontal_mobile",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "label": "Horizontal padding mobile",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "box_spacing",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "label": "Box spacing",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "box_spacing_mobile",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "label": "Box spacing mobile",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "box_padding",
+      "min": 20,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "label": "Box padding",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "icon_spacing",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "label": "Icon bottom spacing",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "heading_spacing",
+      "min": 5,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "label": "Box heading bottom spacing",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Animation"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_animation",
+      "label": "Enable scroll animation",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image banner with boxes"
+    }
+  ]
+}
+{% endschema %}

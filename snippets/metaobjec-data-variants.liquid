@@ -1,0 +1,11 @@
+{% for variant in product.variants %}
+  {% assign get_value = variant.metafields.custom.package_what_you_get_ | metafield_tag %}
+  <div
+    class="custom_variant_package_get_metafield {% if product.selected_or_first_available_variant.id == variant.id %}custom_metafield_show {% else %}custom_metafiled_hide {% endif %}"
+    id="custom_package_get_{{ variant.id }}"
+  >
+  
+    {{ get_value }}
+  </div>
+
+{% endfor %}

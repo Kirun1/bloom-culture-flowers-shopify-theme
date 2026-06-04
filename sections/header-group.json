@@ -1,0 +1,82 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "e3974782-fa88-44a1-b0c7-95bd053f2158": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/pages/budget-estimator\" title=\"Budget Estimator\"><strong>Try Our Budget Estimator</strong></a></p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "e3f4637b-5326-45e8-83a1-0ce16e056e00": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/pages/contact\" title=\"Contact\"><strong>Need help anytime? Contact Us</strong></a></p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "e3974782-fa88-44a1-b0c7-95bd053f2158",
+        "e3f4637b-5326-45e8-83a1-0ce16e056e00"
+      ],
+      "settings": {
+        "layout": "slider",
+        "slider_speed": 5,
+        "show_arrows": true,
+        "marquee_speed": 100
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "header_sticky": false,
+        "enable_search": true,
+        "header_style": "logo_beside",
+        "show_icons": true,
+        "icon_as_circle": false,
+        "cart_icon_family": "cart",
+        "logo": "{{ shop.brand.logo }}",
+        "logo_max_limit": 215,
+        "main_menu_linklist": "main-menu",
+        "show_social_icons": false,
+        "secondary_menu_linklist": "",
+        "show_locale_selector": false,
+        "highlight_item": "",
+        "highlight_item_color": "{{ shop.brand.colors.primary[0].background }}",
+        "transparent_logo": "{{ shop.brand.logo }}",
+        "transparent_home": false,
+        "transparent_collection": false,
+        "transparent_article": false,
+        "transparent_page": false
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

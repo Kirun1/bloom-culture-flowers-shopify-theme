@@ -1,0 +1,405 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_rich_text_XwcyDV": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_WbFddd": {
+          "type": "heading",
+          "settings": {
+            "title": "DIY Collections",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WbFddd"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 30
+      }
+    },
+    "section_collections_list_BFJkkf": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_mgqxh3": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-autumnal-collection",
+            "title": ""
+          }
+        },
+        "collection_aePi8P": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-burgundy-blush-collection",
+            "title": ""
+          }
+        },
+        "collection_ATXwaF": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-blush-ivory-collection",
+            "title": ""
+          }
+        },
+        "collection_qwymLa": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-bright-collection",
+            "title": ""
+          }
+        },
+        "collection_naijwK": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-dusty-blush-collection",
+            "title": ""
+          }
+        },
+        "collection_AzRw6t": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-green-white-collection",
+            "title": ""
+          }
+        },
+        "collection_3nXHmX": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-rust-collection",
+            "title": ""
+          }
+        },
+        "collection_r6wazi": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-strawberry-champagne-collection",
+            "title": ""
+          }
+        },
+        "collection_AbbaRB": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-terracotta-collection",
+            "title": ""
+          }
+        },
+        "collection_nmaRjf": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-terracotta-blush-collection",
+            "title": ""
+          }
+        },
+        "collection_YfEmFU": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-boho-collection",
+            "title": ""
+          }
+        },
+        "collection_9mYcWA": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-greenery-collection",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_mgqxh3",
+        "collection_aePi8P",
+        "collection_ATXwaF",
+        "collection_qwymLa",
+        "collection_naijwK",
+        "collection_AzRw6t",
+        "collection_3nXHmX",
+        "collection_r6wazi",
+        "collection_AbbaRB",
+        "collection_nmaRjf",
+        "collection_YfEmFU",
+        "collection_9mYcWA"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "2",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 16,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collections_list_Amt4hC": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_LwcQh6": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-lavender-collection",
+            "title": ""
+          }
+        },
+        "collection_FgHVHa": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-light-blue-white-collection",
+            "title": ""
+          }
+        },
+        "collection_rKpTjf": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-mauve-collection",
+            "title": ""
+          }
+        },
+        "collection_AQpPHC": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-orange-collection",
+            "title": ""
+          }
+        },
+        "collection_wnhV6r": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-pink-collection",
+            "title": ""
+          }
+        },
+        "collection_HbGiPp": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-red-pink-collection",
+            "title": ""
+          }
+        },
+        "collection_rN7FyL": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-wildflower-collection",
+            "title": ""
+          }
+        },
+        "collection_gGYVRk": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-wine-tone-collection",
+            "title": ""
+          }
+        },
+        "collection_a3rVwD": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-yellow-collection",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_LwcQh6",
+        "collection_FgHVHa",
+        "collection_rKpTjf",
+        "collection_AQpPHC",
+        "collection_wnhV6r",
+        "collection_HbGiPp",
+        "collection_rN7FyL",
+        "collection_gGYVRk",
+        "collection_a3rVwD"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "2",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 75,
+        "heading_tag": "automatic"
+      }
+    },
+    "main": {
+      "type": "list-collections",
+      "disabled": true,
+      "settings": {
+        "display_type": "selected",
+        "title": "All Coll",
+        "heading_font_size": "heading-medium",
+        "grid": 5,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "blocks_A77rAU": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_67beea0_gqXkVF": {
+          "type": "ai_gen_block_67beea0",
+          "settings": {
+            "section_heading": "",
+            "section_heading_tag": "h2",
+            "section_heading_size": 32,
+            "section_heading_size_mobile": 22,
+            "section_heading_spacing": 40,
+            "section_heading_spacing_mobile": 32,
+            "background_image": "shopify://shop_images/Bloom_Culture_LLAYTON-167.jpg",
+            "overlay_color": "#f7f6f0",
+            "overlay_opacity": 0.2,
+            "box_bg_color": "#f7f6f0",
+            "box_border_color": "#3b3b3b",
+            "box_border_hover_color": "#2a2a2a",
+            "box_1_icon": "shopify://shop_images/bcf_green_truck.png",
+            "box_1_heading": "Fast Shipping",
+            "box_1_description": "Fast delivery means your flowers arrive in great condition.",
+            "box_2_icon": "shopify://shop_images/bcf_green_flower_icon_a82cab06-3529-4424-bc52-b8d9241748ec.png",
+            "box_2_heading": "All the Flowers",
+            "box_2_description": "Includes all the flowers & greenery to make the items shown in each package.",
+            "box_3_icon": "shopify://shop_images/bcf_green_clipboard.png",
+            "box_3_heading": "DIY with Confidence",
+            "box_3_description": "Resources, support & tutorials to help you succeed.",
+            "heading_size": 20,
+            "heading_size_mobile": 18,
+            "description_size": 15,
+            "description_size_mobile": 14,
+            "icon_size": 70,
+            "icon_size_mobile": 60,
+            "section_padding_top": 60,
+            "section_padding_bottom": 60,
+            "section_padding_horizontal": 40,
+            "section_padding_top_mobile": 40,
+            "section_padding_bottom_mobile": 40,
+            "section_padding_horizontal_mobile": 20,
+            "box_spacing": 30,
+            "box_spacing_mobile": 20,
+            "box_padding": 40,
+            "icon_spacing": 20,
+            "heading_spacing": 15,
+            "enable_animation": true
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_67beea0_gqXkVF"
+      ],
+      "name": "Image banner with boxes",
+      "settings": {}
+    },
+    "section_custom_content_jnCRzc": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_grFEkU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BlankenshipWedding_MBP_-279_4bb0f69a-f2df-4476-b671-ca0d2ce0a374.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_tiJ34y": {
+          "type": "text",
+          "settings": {
+            "subheading": "Not Sure Where to Start?",
+            "title": "DIY Flower Consultation",
+            "heading_font_size": "heading-large",
+            "text": "<p>Get a 30-minute call with a professional floral designer who will help you figure out<em> exactly </em>what you need. We’ll talk through your budget, colors, inspiration photos, flower varieties, and what goes where. Oh! and answer every question you’ve been Googling at 1 AM. <br/><br/>Walk away with a clear plan, expert guidance, and total confidence in your wedding flowers.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Get Expert Help",
+            "button_url": "shopify://products/diy-flower-consultation",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_grFEkU",
+        "text_tiJ34y"
+      ],
+      "settings": {
+        "borders": true,
+        "gutters": true,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 75,
+        "padding_bottom": 75
+      }
+    }
+  },
+  "order": [
+    "section_rich_text_XwcyDV",
+    "section_collections_list_BFJkkf",
+    "section_collections_list_Amt4hC",
+    "main",
+    "blocks_A77rAU",
+    "section_custom_content_jnCRzc"
+  ]
+}

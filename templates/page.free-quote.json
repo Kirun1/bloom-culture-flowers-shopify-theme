@@ -1,0 +1,249 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_custom_content_DnARQA": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_kgzAF3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloom_Culture_LLAYTON-172_4b93d5b5-b0d5-488f-8c74-18cc2d471ac2.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_6A8G8e": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Free DIY Wedding Flower Quote",
+            "heading_font_size": "heading-x-large",
+            "text": "<p>To get the most accurate quote, select only the items you need and enter the quantity for each. This helps us build a custom flower plan with the right recipes, stem counts, and pricing for <em>your </em>event.<br/><br/>If you’re just looking for estimated pricing, please use our <a href=\"/pages/budget-estimator\" title=\"Budget Estimator\">Budget Estimator</a> first — we highly recommend starting there. </p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_kgzAF3",
+        "text_6A8G8e"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": true,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-b554e65b-3af1-4b95-85d5-02f0bf781144",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_nkL63J": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_7WBy6R": {
+          "type": "heading",
+          "settings": {
+            "title": "When to use this form:",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_77zdkR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re on your team and excited to help bring your vision to life!</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_7WBy6R",
+        "text_77zdkR"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-1",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "1764976062aa864fca": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_dd0e390_q3RgPJ": {
+          "type": "ai_gen_block_dd0e390",
+          "settings": {
+            "container_width": "normal",
+            "text_alignment": "left",
+            "intro_heading": "When to Use This Form:",
+            "intro_text": "",
+            "intro_heading_size": 36,
+            "intro_text_size": 18,
+            "intro_spacing": 40,
+            "heading_1": "Best for couples who are:",
+            "text_1": "<p>-<strong> 6–8 months out</strong> (and no more than a year)<br/>- Know what items they want & how many<br/>- Know their <strong>color palette<br/></strong>- Have a <strong>general budget</strong> in mind</p>",
+            "heading_2": "Your quote includes:",
+            "text_2": "<p>- One design revision<br/>- A custom cart for easy checkout<br/>- Custom floral recipes<br/>- Access to our 53-page DIY Guide</p>",
+            "heading_3": "How to fill this out:",
+            "text_3": "<p>- Click each item you need<br/>- Enter the quantity required<br/>- Add notes if you’re unsure — we’re here to help</p>",
+            "heading_size": 24,
+            "text_size": 16,
+            "padding_top": 40,
+            "padding_bottom": 40
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_dd0e390_q3RgPJ"
+      ],
+      "settings": {}
+    },
+    "section_text_row_mAUaTb": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_WdwP4y": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-info-empty",
+            "icon_size": 20,
+            "icon_color": "#f7f6f0",
+            "title": "Best for couples who are:",
+            "heading_font_size": "heading-small",
+            "text": "<p>-<strong> 6–8 months out</strong> (and no more than a year)<br/>- Know what items they want & how many<br/>- Know their <strong>color palette<br/></strong>- Have a <strong>general budget</strong> in mind</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_X3Rqwf": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-info-empty",
+            "icon_size": 20,
+            "icon_color": "#f7f6f0",
+            "title": "Your quote includes:",
+            "heading_font_size": "heading-small",
+            "text": "<p>- One design revision<br/>- A custom cart for easy checkout<br/>- Custom floral recipes<br/>- Access to our 53-page DIY Guide</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_8rkFVD": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-info-empty",
+            "icon_size": 20,
+            "icon_color": "#f7f6f0",
+            "title": "How to fill this out:",
+            "heading_font_size": "heading-small",
+            "text": "<p>- Click each item you need<br/>- Enter the quantity required<br/>- Add notes if you’re unsure — we’re here to help<br/>- We’re on your team and excited to help bring your vision to life!</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_WdwP4y",
+        "icon_X3Rqwf",
+        "icon_8rkFVD"
+      ],
+      "disabled": true,
+      "name": "Text columns with icons",
+      "settings": {
+        "title": "When to use this form:",
+        "heading_font_size": "heading-large",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "icon_alignment": "icon--top",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_custom_code_B4MHAe": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<div data-paperform-id=\"bcf-cusotm-diy-quote\"></div><script>(function() {var script = document.createElement('script'); script.src = \"https://paperform.co/__embed.min.js\"; document.body.appendChild(script); })()</script>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-3",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_custom_content_DnARQA",
+    "section_rich_text_nkL63J",
+    "1764976062aa864fca",
+    "section_text_row_mAUaTb",
+    "section_custom_code_B4MHAe"
+  ]
+}

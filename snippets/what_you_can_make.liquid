@@ -1,0 +1,11 @@
+{% for variant in product.variants %}
+   {% assign include_meta = variant.metafields.custom.whats_included.value %}
+
+  <div
+    class="custom_variant_what_include_metafield {% if product.selected_or_first_available_variant.id == variant.id %}custom_metafield_show {% else %}custom_metafiled_hide {% endif %}"
+    id="custom_what_include_{{ variant.id }}"
+  >
+    {% comment %}<h6>What You Can Make:</h6>{% endcomment %}
+    {{ include_meta.details | newline_to_br }}
+  </div>
+  {% endfor %}

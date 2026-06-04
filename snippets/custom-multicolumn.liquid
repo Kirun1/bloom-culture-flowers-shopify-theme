@@ -1,0 +1,91 @@
+{%- liquid
+  assign unique = 'SectionColumns--' | append: section.id
+  assign animation_order = 0
+  assign animation_anchor = unique | prepend: '#'
+  assign heading = section.settings.title
+  assign bg_color = section.settings.bg_color
+  assign text_color = section.settings.color
+  assign blocks_size = section.settings.column_count | default: 6
+  assign column_count = blocks_size | at_least: 2
+  assign column_count_float = column_count | times: 1.000000
+  assign column_width = 100 | divided_by: column_count_float
+  assign enable_slider = enable_slider | default: false
+  assign layout_mobile_class = 'columns--mobile-slider'
+  if section.settings.layout_mobile == 'grid'
+    assign layout_mobile_class = ''
+  endif
+-%}
+{%- style -%}
+  #SectionColumns--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+    {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
+      --bg: {{ bg_color }};
+    {%- endunless -%}
+    {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
+      --text: {{ text_color }};
+    {%- endunless -%}
+  }
+  .custom_column_width {
+    width: calc(100% / {{ column_count }});
+    padding: 0 10px;
+    height: auto;
+  }
+  .custom_image {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* This creates a square aspect ratio */
+    overflow: hidden;
+  }
+  .custom_image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This will crop the image to fill the square */
+  }
+  @media only screen and (max-width: 749px) {
+    .custom_column_width {
+      width: 50%;
+    }
+  }
+{%- endstyle -%}
+{%- if enable_slider -%}
+  {%- capture slider_attributes -%}
+    data-slider="{{ section.id }}"
+    data-options='{"watchCSS": true, "cellAlign": "left", "pageDots": false, "prevNextButtons": true, "adaptiveHeight": false, "wrapAround": false, "groupCells": true}'
+    data-arrow-position-middle
+  {%- endcapture -%}
+{%- endif -%}
+<div id="{{ unique }}"
+  class="section-columns section-padding {{ section.settings.align_text }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="columns">
+  <div class="{{ section.settings.width }}">
+    {%- if heading != blank -%}
+      {%- assign font_size_class = section.settings.heading_size | prepend: 'heading-size-' -%}
+      {%- assign animation_order = animation_order | plus: 1 -%}
+      <div class="grid__heading-holder">
+        <h2 class="grid__heading {{ font_size_class }} custom_heading"
+          data-aos="hero"
+          data-aos-anchor="{{ animation_anchor }}"
+          data-aos-order="{{ animation_order }}">
+          {{- heading -}}
+        </h2>
+      </div>
+    {%- endif -%}
+    <div class="custom_columns {{ section.settings.align_columns }}"{% if request.design_mode %} data-block-scroll {% endif %} {{ slider_attributes }}>
+      {% for product in product.metafields.custom.product_highlights.value %}
+        <div class="custom_column_width">
+          <div class="custom_image abc">
+            <img src="{{ product.image | img_url: '400x400', crop: 'center' }}" alt="{{ product.heading }}">
+          </div>
+          <div class="custom_product_heading">
+            <p class="product-item__title">{{ product.heading }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

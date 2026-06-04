@@ -1,0 +1,477 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "collection",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "siblings_VTgM8M": {
+          "type": "siblings",
+          "settings": {
+            "siblings_collection": "{{ product.metafields.theme.siblings.value }}",
+            "sibling_color": "{{ product.metafields.theme.sibling_color.value }}",
+            "option_font_size": "body-medium",
+            "value_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": false,
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_dynamic_checkout": false,
+            "button_type_dynamic": "btn--secondary",
+            "button_size_dynamic": "btn--large",
+            "button_style_dynamic": "btn--solid",
+            "show_gift_card_recipient": false,
+            "padding_bottom": 16
+          }
+        },
+        "accordion_d4ncrb": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "What You Can Make",
+            "heading_font_size": "body-medium",
+            "text": "{{ product.metafields.custom.what_you_can_make_bundles | metafield_tag }}",
+            "text_font_size": "body-medium",
+            "show_icon": true,
+            "icon_name": "icon-notes",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_xCcKix": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "What You Get",
+            "heading_font_size": "body-medium",
+            "text": "{{ product.metafields.custom.what_you_get_bundles | metafield_tag }}",
+            "text_font_size": "body-medium",
+            "show_icon": true,
+            "icon_name": "icon-leaf",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 0
+          }
+        },
+        "features_Kh64Kd": {
+          "type": "features",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-notes",
+            "icon_size": 20,
+            "title": "What You Can Make",
+            "text_font_size": "body-medium",
+            "text": "{{ product.metafields.custom.what_you_can_make_bundles | metafield_tag }}",
+            "bg_color": "#f1f1ef",
+            "color": "#314b5a",
+            "padding_bottom": 16
+          }
+        },
+        "divider_Rm3fPU": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "features_cGQU7r": {
+          "type": "features",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_size": 20,
+            "title": "What You Get",
+            "text_font_size": "body-medium",
+            "text": "{{ product.metafields.custom.what_you_get_bundles | metafield_tag }}",
+            "bg_color": "#f1f1ef",
+            "color": "#2e434e",
+            "padding_bottom": 16
+          }
+        },
+        "9f93ba5f-fee5-4359-98b5-5c0025d6c36e": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "ef26b3b5-acbd-4ab1-a02c-505142dbbc4b": {
+          "type": "text",
+          "settings": {
+            "title": "Need some help before ordering?",
+            "heading_font_size": "body-medium",
+            "text": "<p><a href=\"/pages/contact\" title=\"Contact\">Contact Us</a></p>",
+            "text_font_size": "body-medium",
+            "text_alignment": "text-left",
+            "layout": "left",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "siblings_VTgM8M",
+        "buttons",
+        "accordion_d4ncrb",
+        "accordion_xCcKix",
+        "features_Kh64Kd",
+        "divider_Rm3fPU",
+        "features_cGQU7r",
+        "9f93ba5f-fee5-4359-98b5-5c0025d6c36e",
+        "ef26b3b5-acbd-4ab1-a02c-505142dbbc4b"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "variant_image_scroll": true,
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "image_layout": "thumbnails",
+        "image_size": "normal",
+        "mobile_image_style": "thumbs",
+        "color_scheme": "",
+        "padding_top": 90,
+        "padding_bottom": 20
+      }
+    },
+    "3104c96f-b52f-44a1-9888-e3d6af59ea6f": {
+      "type": "section-columns",
+      "blocks": {
+        "template--18864357376307__3104c96f-b52f-44a1-9888-e3d6af59ea6f-16860818545b298bad-0": {
+          "type": "image",
+          "disabled": true,
+          "repeater": "{{ product.metafields.custom.product_highlights.value }}",
+          "settings": {
+            "image": "{{ block.repeater.image.value }}",
+            "image_width": 66,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "<p>{{ block.repeater.heading.value }}</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "template--18864357376307__3104c96f-b52f-44a1-9888-e3d6af59ea6f-16860818545b298bad-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "FLOWERS & GREENERY USED IN THIS COLLECTION",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "grid",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "1056f16f-78ae-401e-90d6-4561a2463916": {
+      "type": "custom_columns-section",
+      "custom_css": [],
+      "settings": {
+        "title": "Flowers & Greenery Used in {{ product.title }}",
+        "heading_size": 4,
+        "column_count": 6,
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "rgba(0,0,0,0)",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "blocks_RGtDbx": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_67beea0_yqXrA6": {
+          "type": "ai_gen_block_67beea0",
+          "settings": {
+            "section_heading": "",
+            "section_heading_tag": "h2",
+            "section_heading_size": 32,
+            "section_heading_size_mobile": 22,
+            "section_heading_spacing": 40,
+            "section_heading_spacing_mobile": 32,
+            "background_image": "shopify://shop_images/Bloom_Culture_LLAYTON-167.jpg",
+            "overlay_color": "#f7f6f0",
+            "overlay_opacity": 0.2,
+            "box_bg_color": "#f7f6f0",
+            "box_border_color": "#3b3b3b",
+            "box_border_hover_color": "#2a2a2a",
+            "box_1_icon": "shopify://shop_images/bcf_green_truck.png",
+            "box_1_heading": "Fast Shipping",
+            "box_1_description": "Fast delivery means your flowers arrive in great condition.",
+            "box_2_icon": "shopify://shop_images/bcf_green_flower_icon_a82cab06-3529-4424-bc52-b8d9241748ec.png",
+            "box_2_heading": "All the Flowers",
+            "box_2_description": "Includes all the flowers & greenery to make the items shown in each package",
+            "box_3_icon": "shopify://shop_images/bcf_green_clipboard.png",
+            "box_3_heading": "DIY with Confidence",
+            "box_3_description": "Resources, support & tutorials to help you succeed.",
+            "heading_size": 20,
+            "heading_size_mobile": 18,
+            "description_size": 15,
+            "description_size_mobile": 14,
+            "icon_size": 70,
+            "icon_size_mobile": 60,
+            "section_padding_top": 60,
+            "section_padding_bottom": 60,
+            "section_padding_horizontal": 40,
+            "section_padding_top_mobile": 40,
+            "section_padding_bottom_mobile": 40,
+            "section_padding_horizontal_mobile": 20,
+            "box_spacing": 30,
+            "box_spacing_mobile": 20,
+            "box_padding": 40,
+            "icon_spacing": 20,
+            "heading_spacing": 15,
+            "enable_animation": true
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_67beea0_yqXrA6"
+      ],
+      "name": "Image banner with boxes",
+      "settings": {}
+    },
+    "54cf89f8-13ad-4ead-a2cc-d01e66dad8fa": {
+      "type": "section-text-row",
+      "blocks": {
+        "8245e0d2-7634-4e21-8ec2-d0b592428dd8": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "image": "shopify://shop_images/3_04e831a0-f1d5-4133-b01b-923e1790f82d.png",
+            "icon_size": 35,
+            "icon_color": "#545454",
+            "title": "ALL THE FLOWERS",
+            "heading_font_size": "heading-small",
+            "text": "<p>All the flowers & greenery plus the exact recipes to use to make the items shown.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "e32608f2-1c3b-473c-9188-50e2b435a252": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-notes",
+            "image": "shopify://shop_images/4.png",
+            "icon_size": 35,
+            "icon_color": "#545454",
+            "title": "COMPLETE DIY WEDDING FLOWER GUIDE",
+            "heading_font_size": "heading-small",
+            "text": "<p>With all the how-to’s, checklists, and worksheets you need to successfully DIY your flowers with confidence.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "9f01467c-751e-4d68-aa0c-ca71c7cf7577": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-fast-shipment",
+            "image": "shopify://shop_images/5_aa07c888-3802-4fb7-be06-8b2497d47f51.png",
+            "icon_size": 35,
+            "icon_color": "#545454",
+            "title": "FAST SHIPPING",
+            "heading_font_size": "heading-small",
+            "text": "<p>FedEx Priority Overnight across the US.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "8245e0d2-7634-4e21-8ec2-d0b592428dd8",
+        "e32608f2-1c3b-473c-9188-50e2b435a252",
+        "9f01467c-751e-4d68-aa0c-ca71c7cf7577"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "All Orders Include",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "icon_alignment": "icon--left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "carousel",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_custom_content_DfAhjV": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_U6HwHA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BlankenshipWedding_MBP_-279_4bb0f69a-f2df-4476-b671-ca0d2ce0a374.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_TYkA8m": {
+          "type": "text",
+          "settings": {
+            "subheading": "Not Sure Where to Start?",
+            "title": "DIY Flower Consultation",
+            "heading_font_size": "heading-large",
+            "text": "<p>Get a 30-minute call with a professional floral designer who will help you figure out <em>exactly </em>what you need. We’ll talk through your budget, colors, inspiration photos, flower varieties, and what goes where. Oh! and answer every question you’ve been Googling at 1 AM. <br/><br/>Walk away with a clear plan, expert guidance, and total confidence in your wedding flowers.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Get Expert Help",
+            "button_url": "shopify://products/diy-flower-consultation",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_U6HwHA",
+        "text_TYkA8m"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": true,
+        "gutters": true,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 75,
+        "padding_bottom": 50
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Related products"
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Recently viewed"
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_font_size": "heading-small",
+        "limit": 4,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 75
+      }
+    },
+    "1686850020afa2a38e": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3104c96f-b52f-44a1-9888-e3d6af59ea6f",
+    "1056f16f-78ae-401e-90d6-4561a2463916",
+    "blocks_RGtDbx",
+    "54cf89f8-13ad-4ead-a2cc-d01e66dad8fa",
+    "section_custom_content_DfAhjV",
+    "related",
+    "1686850020afa2a38e"
+  ]
+}

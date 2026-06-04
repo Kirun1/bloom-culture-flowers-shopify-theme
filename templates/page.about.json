@@ -1,0 +1,431 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_custom_content_64Ukr6": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_QijPFT": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "About Us",
+            "heading_font_size": "heading-x-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_3hQAwA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloom_Culture_LLAYTON-72.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_QijPFT",
+        "image_3hQAwA"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-b554e65b-3af1-4b95-85d5-02f0bf781144",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3f3a9079-0620-4c01-a81b-0d9a81f50909": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_LPErnf": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "WE CARE ABOUT YOUR WEDDING",
+            "padding_bottom": 16
+          }
+        },
+        "template--18864357179699__3f3a9079-0620-4c01-a81b-0d9a81f50909-16866101186e9ae39e-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Empowering You Is Our Passion",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--18864357179699__3f3a9079-0620-4c01-a81b-0d9a81f50909-16866101186e9ae39e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DIY doesn’t mean doing it alone. We’re here to help you create wedding flowers you love — with support, guidance, and absolutely zero intimidation.  Founded by Martha Stewart Top Floral Designer Alison Fleck, Bloom Culture was created in 2014 to make wedding flowers approachable, fun, and totally doable. Our goal is simple: to help you save money and feel proud of what you create.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "7912c590-3bc8-4f8f-a7cf-3cc4f16e82c3": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Explore Our DIY Collections",
+            "button_url": "shopify://collections/diy-collections",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LPErnf",
+        "template--18864357179699__3f3a9079-0620-4c01-a81b-0d9a81f50909-16866101186e9ae39e-1",
+        "template--18864357179699__3f3a9079-0620-4c01-a81b-0d9a81f50909-16866101186e9ae39e-2",
+        "7912c590-3bc8-4f8f-a7cf-3cc4f16e82c3"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_divider_wDyyjE": {
+      "type": "section-divider",
+      "disabled": true,
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0e0996ac-dfb5-4a26-a8d4-cb4955c30709": {
+      "type": "section-double",
+      "blocks": {
+        "5ee9689a-45a2-4df7-8d29-a223ed9dc5cc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MEET ALISON</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "template--18864357179699__0e0996ac-dfb5-4a26-a8d4-cb4955c30709-16832549863afe86ac-0": {
+          "type": "heading",
+          "settings": {
+            "title": "I Care About Your Wedding.",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--18864357179699__0e0996ac-dfb5-4a26-a8d4-cb4955c30709-16832549863afe86ac-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With more than 15 years as a floral designer and shop owner, I’ve helped couples create beautiful flowers at every budget — from shoestring celebrations to full-scale events. That experience taught me that you don’t need a huge budget or professional training to make something stunning; you just need the right guidance. <br/><br/>I built Bloom Culture to give you exactly that — a clear, supportive process that removes the stress and uncertainty, no matter your vision or price point. If you’re feeling overwhelmed, I’ve got you. Truly.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "5ee9689a-45a2-4df7-8d29-a223ed9dc5cc",
+        "template--18864357179699__0e0996ac-dfb5-4a26-a8d4-cb4955c30709-16832549863afe86ac-0",
+        "template--18864357179699__0e0996ac-dfb5-4a26-a8d4-cb4955c30709-16832549863afe86ac-1"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/6_6c8ea817-ec97-4065-ba37-19a50813a264.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-b554e65b-3af1-4b95-85d5-02f0bf781144",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "fca48bbb-93d3-49ce-abdd-a3febc6a4b42": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--18864357179699__fca48bbb-93d3-49ce-abdd-a3febc6a4b42-16866102962d017d78-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "WHO WE ARE",
+            "title": "Our mission is to make DIY wedding flowers approachable for everyone, no matter your skill level. ",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "rgba(0,0,0,0)",
+            "color": "rgba(0,0,0,0)",
+            "heading_tag": "automatic"
+          }
+        },
+        "a8566807-4b9c-49e3-a06e-e6dad975ca6f": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "<p>We believe making your own wedding flowers should feel joyful and not confusing. That’s why we give you clear recipes, honest advice, and step-by-step support from the moment your flowers arrive. It’s not just about saving money (though you will). It’s about creating memories with your people, and feeling proud of what you carry down the aisle.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "How It Works",
+            "button_url": "shopify://pages/how-it-works",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "rgba(0,0,0,0)",
+            "color": "rgba(0,0,0,0)",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "template--18864357179699__fca48bbb-93d3-49ce-abdd-a3febc6a4b42-16866102962d017d78-1",
+        "a8566807-4b9c-49e3-a06e-e6dad975ca6f"
+      ],
+      "custom_css": [],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3d231c4f-4ad8-4287-94df-7ce7026a1d2c": {
+      "type": "section-hero",
+      "settings": {
+        "image_1": "shopify://shop_images/Bloom_Culture_LLAYTON-244_8a543cdb-dda0-46b3-b577-83ae764e8571.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "79cd86e2-c6a8-4319-a2cb-e5061935e3f0": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_DyndGt": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "WHO WE'RE NOT",
+            "padding_bottom": 16
+          }
+        },
+        "template--18864357179699__79cd86e2-c6a8-4319-a2cb-e5061935e3f0-16832551451ab5e110-1": {
+          "type": "heading",
+          "settings": {
+            "title": "We’re Not Floral Snobs. ",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--18864357179699__79cd86e2-c6a8-4319-a2cb-e5061935e3f0-16832551451ab5e110-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re not here to judge your budget, your flower choices, or your vision. Whether you love classics, colors, neutrals, or something totally unexpected — you’re welcome here. Our team is made up of professional designers who know wedding flowers inside and out, and we’re here to guide, not gatekeep. Your flowers, your style, your way.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DyndGt",
+        "template--18864357179699__79cd86e2-c6a8-4319-a2cb-e5061935e3f0-16832551451ab5e110-1",
+        "template--18864357179699__79cd86e2-c6a8-4319-a2cb-e5061935e3f0-16832551451ab5e110-2"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_divider_faPiNg": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a1b530fb-856e-4dca-b758-6f908764ec15": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_waFM8L": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Where You’ll Find Us ",
+            "padding_bottom": 16
+          }
+        },
+        "68705114-3636-4555-924a-f721fa61770e": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>YOU'LL FIND US</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "fc2ee825-5003-46a9-bd25-b016c7bd3a72": {
+          "type": "heading",
+          "settings": {
+            "title": "In The Greenhouse",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "b1968734-5858-4bd3-9188-eff11a4a855a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Most days, you’ll find us in our cozy greenhouse testing recipes, filming tutorials, and dreaming up new ways to make DIY wedding flowers easier for you. Have ideas or feedback? We genuinely want to hear it. This is a community, and your insight shapes what we create.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "3d08a52b-437e-4c52-a471-fac1b82fd07a": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Contact Us",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_waFM8L",
+        "68705114-3636-4555-924a-f721fa61770e",
+        "fc2ee825-5003-46a9-bd25-b016c7bd3a72",
+        "b1968734-5858-4bd3-9188-eff11a4a855a",
+        "3d08a52b-437e-4c52-a471-fac1b82fd07a"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/greenhouse.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_custom_content_64Ukr6",
+    "3f3a9079-0620-4c01-a81b-0d9a81f50909",
+    "section_divider_wDyyjE",
+    "0e0996ac-dfb5-4a26-a8d4-cb4955c30709",
+    "fca48bbb-93d3-49ce-abdd-a3febc6a4b42",
+    "3d231c4f-4ad8-4287-94df-7ce7026a1d2c",
+    "79cd86e2-c6a8-4319-a2cb-e5061935e3f0",
+    "section_divider_faPiNg",
+    "a1b530fb-856e-4dca-b758-6f908764ec15",
+    "main"
+  ]
+}

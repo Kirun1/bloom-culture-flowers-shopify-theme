@@ -1,0 +1,555 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "blocks_QhiCJi": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_67beea0_pEAc8g": {
+          "type": "ai_gen_block_67beea0",
+          "settings": {
+            "section_heading": "How It Works",
+            "section_heading_tag": "h2",
+            "section_heading_size": 32,
+            "section_heading_size_mobile": 22,
+            "section_heading_spacing": 40,
+            "section_heading_spacing_mobile": 32,
+            "overlay_color": "#f7f6f0",
+            "overlay_opacity": 0.5,
+            "box_bg_color": "#f7f6f0",
+            "box_border_color": "#3b3b3b",
+            "box_border_hover_color": "#2a2a2a",
+            "box_1_heading": "Step One",
+            "box_1_description": "Browse our curated collection of premium floral arrangements designed for your special day.",
+            "box_2_heading": "Step Two",
+            "box_2_description": "Customize your selections with our expert team to match your wedding vision perfectly.",
+            "box_3_heading": "Step Three",
+            "box_3_description": "Relax as we deliver and set up your beautiful florals on your wedding day.",
+            "heading_size": 20,
+            "heading_size_mobile": 18,
+            "description_size": 15,
+            "description_size_mobile": 14,
+            "icon_size": 80,
+            "icon_size_mobile": 60,
+            "section_padding_top": 60,
+            "section_padding_bottom": 60,
+            "section_padding_horizontal": 40,
+            "section_padding_top_mobile": 40,
+            "section_padding_bottom_mobile": 40,
+            "section_padding_horizontal_mobile": 20,
+            "box_spacing": 30,
+            "box_spacing_mobile": 20,
+            "box_padding": 40,
+            "icon_spacing": 20,
+            "heading_spacing": 15,
+            "enable_animation": true
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_67beea0_pEAc8g"
+      ],
+      "disabled": true,
+      "name": "Image banner with boxes",
+      "settings": {}
+    },
+    "section_hero_tAtFT8": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_BiA66M": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQs",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_QMctaH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You’ve got questions, We’ve got answers! Check out some of our most frequently asked questions below or contact us. We're here to help!</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 8
+          }
+        },
+        "button_iijFdh": {
+          "type": "button",
+          "settings": {
+            "link_text": "Contact Us",
+            "link": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_BiA66M",
+        "text_QMctaH",
+        "button_iijFdh"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/Bloom_Culture_LLAYTON-207.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-two-thirds",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 40,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--top-left-mobile",
+        "color_scheme": "scheme-1",
+        "show_text_background": true,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "1567c219-0a4b-4f61-9327-0cca00aeb60d": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--18864357540147__1567c219-0a4b-4f61-9327-0cca00aeb60d-16866101186e9ae39e-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Frequently Asked Questions",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--18864357540147__1567c219-0a4b-4f61-9327-0cca00aeb60d-16866101186e9ae39e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You’ve got questions, We’ve got answers! Check out some of our most frequently asked questions below or contact us. We're here to help!</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "3ef01a89-5cad-4cf3-8736-08638bab7449": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Contact Us",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "template--18864357540147__1567c219-0a4b-4f61-9327-0cca00aeb60d-16866101186e9ae39e-1",
+        "template--18864357540147__1567c219-0a4b-4f61-9327-0cca00aeb60d-16866101186e9ae39e-2",
+        "3ef01a89-5cad-4cf3-8736-08638bab7449"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-1",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "540f437e-ff7a-42d8-88f8-0c7188787370": {
+      "type": "section-sidebar",
+      "blocks": {
+        "template--20312964825395__540f437e-ff7a-42d8-88f8-0c7188787370-header-1": {
+          "type": "header",
+          "settings": {
+            "title": "Ordering"
+          }
+        },
+        "template--20312964825395__540f437e-ff7a-42d8-88f8-0c7188787370-accordion-1": {
+          "type": "accordion",
+          "settings": {
+            "title": "How does the Bloom Culture DIY process work?",
+            "content": "<ol><li><a href=\"/collections/diy-collections\" title=\"DIY Collections\">Pick your flower collection</a> in the color palette you like</li><li>Select the package size that works best for your event. We provide an outline of exactly how much you can expect to make with each package as a guide.</li><li>Check out and select your shipping date</li><li>You will be emailed recipes for the specific arrangements you selected along with our full length 55-page DIY Flower guide.</li><li>You will gain access to our extended database of DIY flower tutorials. </li><li>Your blooms will arrive a few days before your wedding and you will follow our DIY guide and tutorials to make your own wedding flowers!</li></ol><p>Don’t see a collection that looks perfect to you or want to create something custom? You can also order a <a href=\"/pages/custom-floral-design\" title=\"Custom Floral Design\">custom flower design</a> and we will work through the process one on one with you! </p>"
+          }
+        },
+        "5067e5e3-c58e-4dfc-b7c7-627b943f2c5a": {
+          "type": "accordion",
+          "settings": {
+            "title": "What’s the difference between the Guide Preview & the Full DIY Guide?",
+            "content": "<p><a href=\"/pages/diy-wedding-flowers-guide\" title=\"DIY Wedding Flowers Guide\">The Guide preview</a> is just a glimpse of the full 55-page DIY Guide to give you a preview of what to expect with our guided approach to DIY. The Full length version is our step by step in depth process of DIY Wedding flowers. </p>"
+          }
+        },
+        "template--20312964825395__540f437e-ff7a-42d8-88f8-0c7188787370-accordion-2": {
+          "type": "accordion",
+          "settings": {
+            "title": "Will I have enough flowers? What if I run out?",
+            "content": "<p>You won’t. That’s why you’re paying us - just follow our recipes! ;) We’ve been in the floral industry for over 15 years and know flowers like the back of our hand. You will have an exact recipe so there is no guesswork and we make your floral order off of those recipes to make sure you have exactly what you need (with a little wiggle room).</p>"
+          }
+        },
+        "d595d653-c1b6-411d-b401-1980485ea68c": {
+          "type": "accordion",
+          "settings": {
+            "title": "What exactly IS a floral recipe?",
+            "content": "<p>Think of a flower recipe the way you would a cooking recipe. It gives you all the ingredients and the quantities you’ll need of those ingredients so that you can make an amazing soufflé... or jello depending on your skill level. Either way, all you have to do is follow the recipe and voila, magic food appears! Same concept, no calories. Below is a sample recipe for a Bridal Bouquet:</p><p><em>Ariana’s Bridal Bouquet</em></p><ul><li><em>4-6 Burgundy Garden Roses</em></li><li><em>5-7 Dusty Blush Premium Roses </em></li><li><em>4-6 White Premium Roses </em></li><li><em>2-3 Spray roses</em></li><li><em>3-4 Hanging Amaranthus</em></li><li><em>4-5 White Ranunculus</em></li><li><em>1/4 Bunch (BU) Eucalyptus</em></li><li><em>1/4 Bu Salal/Lemon Leaf</em></li></ul>"
+          }
+        },
+        "7d8f1409-ca27-4122-85fc-8bae848679d7": {
+          "type": "accordion",
+          "settings": {
+            "title": "When should I order?",
+            "content": "<p>We suggest ordering 2-4 months in advance. We will not accept orders less than 2 weeks out from a wedding or event. If you are in a time crunch, please email us! </p>"
+          }
+        },
+        "73cacc85-721c-4ba3-9d71-a6791f472384": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do I book a consultation?",
+            "content": "<p>Booking a consultation is quick and easy! <a href=\"/products/diy-flower-consultation\" title=\"DIY Flower Consultation\">On our Consultations page</a>, you’ll find a convenient booking form where you can select your preferred date and time. Fill in your details, and voila! Your appointment will be confirmed, and we’ll be ready to assist you at the scheduled time. If you need any assistance or have specific requirements, feel free to reach out to our friendly customer support team.<br/></p>"
+          }
+        },
+        "bba61bf4-4cab-43df-b353-73b9fc114f7d": {
+          "type": "accordion",
+          "settings": {
+            "title": "What’s the difference between a free flower quote & a custom flower design?",
+            "content": "<ul><li>The <a href=\"https://bcf-cusotm-diy-quote.paperform.co/\" target=\"_blank\" title=\"https://bcf-cusotm-diy-quote.paperform.co/\">Free Quote</a> is online/email only and there is only one design revision. </li><li>The <a href=\"/products/diy-flower-consultation\" title=\"DIY Flower Consultation\">Custom Consultation</a> is a personal consultation on the phone with one of our experienced florists + extra design revisions.</li></ul>"
+          }
+        },
+        "73cf2784-c8fd-412c-9e57-0f28cca41719": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I add flowers to a package?",
+            "content": "<p>Not yet! We are currently working on an a la carte option for you to be able to add to your package. In the meantime, our <a href=\"/pages/custom-floral-design\" title=\"Custom Floral Design\">custom options</a> are perfect if you're looking to enhance one of our existing collections.</p>"
+          }
+        },
+        "69059d65-538f-4870-8691-b82340f27696": {
+          "type": "accordion",
+          "settings": {
+            "title": "Why do some packages not include all the same flowers? Shouldn’t it just be the stem counts that are different? ",
+            "content": "<p>Each package has different items you can make. The large and grand packages include arbor arrangements that require different flowers than if you were just doing a bouquet or centerpiece. When you make more items they can require different blooms to achieve the look you want. As florists and designers with over 15 years of experience, we have used our expertise to create these designs with the blooms we feel make them successful! </p>"
+          }
+        },
+        "43baa44f-27d1-43d1-be4a-685e94db6464": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I get a sample before placing an order?",
+            "content": "<p>Unfortunately, due to the nature of our product we cannot offer samples, you will need to order an intimate package to do a test run if you want. </p>"
+          }
+        },
+        "667302f7-b04a-4260-b380-20e21403ead6": {
+          "type": "accordion",
+          "settings": {
+            "title": "Do you have an order minimum?",
+            "content": "<p>Yes we have an order minimum of $450 (not including shipping & taxes). </p>"
+          }
+        },
+        "template--20312964825395__540f437e-ff7a-42d8-88f8-0c7188787370-header-2": {
+          "type": "header",
+          "settings": {
+            "title": "DIY Flower Help"
+          }
+        },
+        "template--20312964825395__540f437e-ff7a-42d8-88f8-0c7188787370-accordion-3": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do I care for the product/flowers?",
+            "content": "<p>Please follow the care instructions, provided in the full length DIY GUIDE, for all of our items to maintain their quality and extend their lifespan. The DIY Guide is 55 pages of DIY floral information to help you with your timeline, flower care and handling, supplies, tutorials and more. Following our guide will help you maintain the quality of the products and make sure that you extend the life of your flowers!</p>"
+          }
+        },
+        "3fbd2720-4a0b-4307-ae09-497bf1307f72": {
+          "type": "accordion",
+          "settings": {
+            "title": "How many flowers will I need? And how will I know what combinations of flowers to put in each bouquet / vase?",
+            "content": "<p>We've already done the flower math on exactly how many stems of each item you'll need to make the items indicated in your collection & package so you can trust that you'll have enough to make everything you need! We are a one stop shop and will do all the guesswork for you! (no guessing on our end. We know what we’re doing :) </p>"
+          }
+        },
+        "4805f1b5-5342-458b-be8b-75c5fe76fa2b": {
+          "type": "accordion",
+          "settings": {
+            "title": "What tools will I need and where do I get them?",
+            "content": "<p>Being a Bloom Culture client, you’ll have access to our thorough list of supplies with links to affiliate companies that have the lowest prices (found in our DIY guide). A specific supplies list will be sent to you along with your recipes after you purchase your flowers or have a design consultation. </p>"
+          }
+        },
+        "ebee1d33-ad11-47e8-8c3c-ce0c7eb5a717": {
+          "type": "accordion",
+          "settings": {
+            "title": "What do I do with the flowers once they arrive?",
+            "content": "<p>You will need to process and hydrate the flowers <strong>immediately </strong>upon receipt. Read Chapter 5 in our DIY guide - it has all the info on what you’ll need to read <strong>BEFORE</strong> they arrive. Don’t skimp on the prep work. It will make everything run smoothly and cut stress levels way down. We ain’t got time for stress or drama, oooo new word? Strama (sounds a little too ICU to me, no?)</p>"
+          }
+        },
+        "e7a588af-2560-49f0-bf8f-c46eb7ea7852": {
+          "type": "accordion",
+          "settings": {
+            "title": "Will the flowers be good quality?",
+            "content": "<p>Of course! These flowers are the EXACT SAME flowers professional florists use. By working with Bloom Culture you will be receiving the best quality product from our most trusted wholesalers. Which means you’re getting a premium product at a fantastic price.</p>"
+          }
+        },
+        "f6192240-e3c5-4522-9788-9c9134ae381f": {
+          "type": "accordion",
+          "settings": {
+            "title": "What’s your policy on substitutions, color variations, or guarantees?",
+            "content": "<p>Ready for your eyes to glaze over? JK, this isn’t the fun part but must be said. Also, it’s all laid out in our <a href=\"/policies/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">Terms & Agreements</a>:</p><p><strong>Substitutions: </strong></p><ul><li>All flowers are fresh/organic products are subject to substitution based availability, quality, and freshness. </li><li>While we prefer to send the flowers and varieties requested and/or listed on the order, due to the perishable nature of the product or availability due to a first come first serve process - substitutions are sometimes necessary. </li><li>We will let you know information on substitutions in your shipping tracking info email. We reserve the right to make the needed changes without approval due to the sensitive timing (we make substitutions in real time usually at 5:30 in the morning and can’t wait on customer approval without delaying the order). </li><li>We will take the utmost care to maintain the style and color scheme while using flowers of equal or greater value.</li></ul><p><strong>No Guarantees:</strong></p><ul><li>Flowers, as any natural product, may have variations in color, size, fragrance, etc. Therefore, we in no way imply or contract to exactly match a given shade, tint or hue of any color. </li><li>The flowers will be ordered as listed in your floral order and we will employ our professional knowledge and education to assure the colors are as close as possible to your choices within the constraints of time and your budget.  </li><li>We cannot guarantee any exact color</li></ul>"
+          }
+        },
+        "8c32a8c7-1d73-4af9-b282-5f88622241fc": {
+          "type": "header",
+          "settings": {
+            "title": "Budget"
+          }
+        },
+        "6113dedd-f34a-498a-a888-5e8ed2958393": {
+          "type": "accordion",
+          "settings": {
+            "title": "How will Bloom Culture save me money?",
+            "content": "<ul><li>We draw on our 10+ years of experience and connections in the floral industry to give you access to amazing wholesale flowers AND prices that you can only access as a Bloom Culture bride.</li><li>You can expect to save 60% or more with DIY compared to using a traditional florist (which is HUGE!). By working with Bloom Culture we only order what you need. DIY brides, on average, spend 15% more on flowers than necessary because they don't know what combinations of flowers to order or how many to order (side note: bulk flowers are not always cheaper like you'd expect, rude!).</li><li>Our experience and knowledge of flowers and their optimal seasons and pricing allow us to make the best recommendations for your flowers to be the most cost efficient for your wedding. In short, we know what’s in season, what flowers cost, and how to get the look you want at a price that fits your budget. We’ll hook you up. (Mic Drop).</li></ul>"
+          }
+        },
+        "de12287b-39b1-4439-871c-c49e8820da47": {
+          "type": "accordion",
+          "settings": {
+            "title": "Do you offer payment plans?",
+            "content": "<p>No, but you can use the Shop Pay feature to break your payments into installments over time if you qualify.</p>"
+          }
+        },
+        "435c7bb7-92f8-4b73-99db-7e6d8bef2fac": {
+          "type": "accordion",
+          "settings": {
+            "title": "How much should I expect to spend on flowers?",
+            "content": "<p>Our couples usually spend between $450 and $3000 on their flowers ($450 being our minimum) but we can help you work within whatever budget you want to spend. No idea on your budget? That’s fine too. We have created a <a href=\"/pages/budget-estimator\" title=\"Budget Estimator\">DIY Budget Estimator</a> for you to figure out what you’re comfortable spending! </p>"
+          }
+        },
+        "b2c75f48-22c2-483b-8ca7-7cf663d214dd": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can you give me an idea of what things cost?",
+            "content": "<p>The below prices are the range you can expect to spend on flowers for each of the listed pieces. These prices can be adjusted up or down depending on how simple or elaborate you would like your designs to be. Use our helpful <a href=\"/pages/budget-estimator\" title=\"Budget Estimator\">Budget Estimator</a> to get a more accurate idea of what your budget is.  </p><ul><li>Bridal Bouquet ~ $99 - $200</li><li>Bridesmaid Bouquet ~ $30-$45</li><li>Bouts & Corsages ~ $3-$8</li><li>Ceremony Arrangement ~ $65 - $100</li><li>Ceremony Arch/Arbor/Pergola ~ $75-$150 (per grouping) <em>**This one can fluctuate quite a bit from wedding to wedding **</em></li><li>Small Centerpiece ~ $25-$45</li><li>Med Centerpiece ~ $50-$65</li><li>Large Centerpiece ~ $70-$95</li><li>Table Garland (Pre-made) ~ $15-$20 per linear foot</li><li>Hand placed greenery to mimic garland ~ $10-$15 (we typically allot 1/2 bunch to 1 bunch of greenery per 8ft)</li><li>Bud Vases (single stems in bottles/vases) ~ $5</li></ul>"
+          }
+        },
+        "6dc64b6e-f1d3-4ed3-8b3b-cf97e6d9b3ac": {
+          "type": "accordion",
+          "settings": {
+            "title": "Are flowers more expensive at certain times?",
+            "content": "<p>Yes, flowers are more expensive on the week of/before holidays and when they are out of season. Avoid these dates as we are closed and do not ship. </p><ul><li>January 1</li><li>Martin Luther King Day</li><li>Memorial Day</li><li>July 4</li><li>Labor Day</li><li>Thanksgiving Day</li><li>Day After Thanksgiving</li><li>December 24-26</li><li>December 31</li></ul>"
+          }
+        },
+        "c649b1d2-c335-4590-8e06-4f353c3d0b3d": {
+          "type": "header",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "135deae9-aad8-43ad-a9cf-87ee4b1447a4": {
+          "type": "accordion",
+          "settings": {
+            "title": "Do you offer free shipping?",
+            "content": "<p>YES! All of our <a href=\"/collections/diy-collections\" title=\"DIY Collections\">pre-curated collections</a> and packages ship for free! 💃 <a href=\"/pages/custom-floral-design\" title=\"Custom Floral Design\">Custom design orders</a>, however, will include a shipping charge based on your destination address.</p>"
+          }
+        },
+        "aada9e50-1ba8-482f-b7fb-48c6d62d03b2": {
+          "type": "accordion",
+          "settings": {
+            "title": "Where do you ship?",
+            "content": "<p>We currently only ship to the contiguous 48 states.</p><p>Unfortunately, we’re not able to ship to Alaska and Hawaii just yet, but we’re working on it! We hope to offer shipping to you soon. In the meantime can help you with everything but shipping flowers to you. </p>"
+          }
+        },
+        "15d0758a-5dcd-4308-8f14-8c059ca836f5": {
+          "type": "accordion",
+          "settings": {
+            "title": "How are the flowers shipped?",
+            "content": "<p>We ship all of our flowers FedEx Priority overnight and require a signature. Which means they leave the wholesaler in the evening and are delivered by 10:30 am (local time) the following day (barring any <a href=\"/policies/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">delays</a>). If you are in a rural area you may account for a later delivery time. Expect delivery in 1-2 business days. </p>"
+          }
+        },
+        "c2948892-fcf6-4361-aee9-df4517c86a5f": {
+          "type": "accordion",
+          "settings": {
+            "title": "Do you provide a tracking number with shipments?",
+            "content": "<p>Definitely! Once your order ships you’ll receive an email with FedEx tracking information. Please note that it may take up to 24 hours for the tracking system to update the status of your shipment.</p>"
+          }
+        },
+        "c5124514-5fec-4fb5-a5f3-304bf0ee5efc": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do I get the flowers and how will I keep them alive?",
+            "content": "<ul><li>We ship all of our flowers FedEx Priority overnight. </li><li>They will need some TLC once they arrive. <a href=\"https://www.instagram.com/tv/BwIe3GbhkfY/?igshid=MTc4MmM1YmI2Ng%3D%3D\" target=\"_blank\" title=\"https://www.instagram.com/tv/BwIe3GbhkfY/?igshid=MTc4MmM1YmI2Ng%3D%3D\">Check out our “Getting Started” tutorial</a> and you will need to reference Chapter 5 in the DIY Guide when you purchase your flowers or after a custom design consultation to get you prepared for all the pretty!</li><li><em>I know what you're going to say…  don't I need a cooler?</em> Nope! You want your flowers to open up. To aid in the process we suggest reading some light Brené Brown to them, or playing her TED talk on repeat. I read that sh*t once and couldn’t stop opening up to strangers! JK, room temp water in a cool room (but not too cool, between 68-72 is ideal).</li></ul>"
+          }
+        },
+        "ed9e3b1c-4518-4566-845c-d50949ba5473": {
+          "type": "accordion",
+          "settings": {
+            "title": "What ship day should I select?",
+            "content": "<p>We only offer shipping on Mondays and Tuesdays. We suggest three days before your wedding or event. So if the shin-dig is on a Saturday, you’ll want your blooms to arrive on the Tuesday or Wednesday before, so your ship day would be the Tuesday before if you are shipping Fedex Priority overnight. If you need a different ship date please contact our customer service. </p>"
+          }
+        },
+        "02c1b690-5e56-4182-af23-219131c50f92": {
+          "type": "accordion",
+          "settings": {
+            "title": "What if my event is on a Monday or Tuesday? When should I order?",
+            "content": "<p>We've found that these shipping days cover the majority of events. If your wedding or even is not on a Friday, Saturday, or Sunday and need to ship on a different day please email our customer service team and we may be able to help! </p>"
+          }
+        },
+        "b9c1a2d2-19a8-47a4-9156-9f13cc12380d": {
+          "type": "accordion",
+          "settings": {
+            "title": "Why can’t I just have the flowers delivered the day before my wedding/event?",
+            "content": "<p>Because the flowers do not arrive arranging-ready. Meaning the flowers need to be processed (via chapter 5 in the DIY Guide), time to hydrate & open up/bloom, on top of the time needed to actually arrange/put together the flowers. </p>"
+          }
+        },
+        "2a039f7a-fabf-45c9-89fc-c67192bfccee": {
+          "type": "accordion",
+          "settings": {
+            "title": "I live outside of the US. Can I use your service?",
+            "content": "<p>We can help you with everything but shipping flowers to you. If you are outside of the US shoot us an email! </p>"
+          }
+        },
+        "81470e9b-b85b-4872-8560-af734d287ca2": {
+          "type": "header",
+          "settings": {
+            "title": "Problems and Issues"
+          }
+        },
+        "2199081d-480d-48ee-8fa6-0c576ed91ef5": {
+          "type": "accordion",
+          "settings": {
+            "title": "What if my flowers arrive late?",
+            "content": "<ul><li>Delays and inclement weather can happen. You’ll get a tracking number and you can always contact us to help you figure it all out. Even if they are late, they are not gonners, they’ll likely just be a little hangry. We’ll just have to give them the floral version of avocado toast to help de-grump. I mean, how do you feel after a day of travel when all you want to do is eat and sleep. Flowers aren’t much different. Sometimes the further you live from a big city, the longer it takes to reach you so they may still be in transit but we won't leave you high and dry.</li><li>Again, this is rare but can happen. We have some flower hacks to help get them perked up and feeling sassy again. If you feel they are not salvageable you’ll need to contact us within 24 hours of receiving your shipment to get a full or partial refund.</li></ul>"
+          }
+        },
+        "32781179-1528-4948-a086-dafa38d48c3f": {
+          "type": "accordion",
+          "settings": {
+            "title": "What if my flowers are damaged?",
+            "content": "<p>Should your flowers arrive damaged please contact us right away! We have some tips & tricks that can help salvage even the saddest-looking blooms. In the rare event that we can't turn things around, we'll ask you to provide us with at least 3 photos of the product in question within 24 hours of receipt before we can issue a replacement or refund.</p>"
+          }
+        },
+        "e9d94ca0-15cb-4afa-a73e-e8893f64e0c0": {
+          "type": "accordion",
+          "settings": {
+            "title": "What is your refund policy?",
+            "content": "<p>It's important to note that we're not able to provide refunds for things like slight color variations, flower size or fragrance. For any other issues such as damaged flowers, major color discrepancies or missing product, we will ask that you provide at least 3 photos of any damage or issues <strong>immediately </strong>(within 24 hours of receiving your flowers) by email. Upon review, you may be eligible for a partial refund. Please see our <a href=\"/policies/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">terms of service</a> for full details.</p>"
+          }
+        },
+        "c2da74b4-293c-4db5-adc6-86a3f3984470": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I cancel my order?",
+            "content": "<p>Absolutely! We understand that circumstances can change. If you need to cancel your order, please reach out to our customer support team at least 30 days before the event. They will assist you in the cancellation process and provide further guidance. Please note that depending on the status of your order, there may be certain restrictions or fees associated with cancellations. We strive to accommodate your needs to the best of our ability. Contact our support team for prompt assistance with order cancellations or any related inquiries.</p>"
+          }
+        },
+        "b7d3ac26-08bf-4f95-846a-3ba87278ed08": {
+          "type": "header",
+          "settings": {
+            "title": "Miscellaneous"
+          }
+        },
+        "0e39d03c-bce9-4bbf-8453-320609e2e412": {
+          "type": "accordion",
+          "settings": {
+            "title": "What is your privacy policy?",
+            "content": "<p>Protecting your privacy is of utmost importance to us. We value the security and confidentiality of your personal information, including how we handle and safeguard your data. Your trust matters to us, and we want to ensure transparency in how we collect, use, and protect your information. Click <a href=\"/policies/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">here</a> to explore our Privacy Policy in detail.</p>"
+          }
+        },
+        "45ee2152-da8b-49cd-868a-6686353a8eb0": {
+          "type": "header",
+          "settings": {
+            "title": "Contact Us"
+          }
+        },
+        "ff5b635a-e7aa-4ece-bd11-13387614577f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re always here to help you with any questions or concerns you may have. You can reach our customer service team through the following channels:</p><ul><li><strong>Email: </strong>Send us an email at hello@bloomcultureflowers and we’ll get back to you within 24 hours. <em>If you have an order issue please use URGENT + Order Number in the subject line.</em></li><li><strong>Live Chat:</strong> Chat with one of our representatives in real-time by clicking on the chat icon located on the bottom right corner of our website.</li></ul><p>No matter which method you choose, we’re committed to providing you with the best possible customer service experience.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20312964825395__540f437e-ff7a-42d8-88f8-0c7188787370-header-1",
+        "template--20312964825395__540f437e-ff7a-42d8-88f8-0c7188787370-accordion-1",
+        "5067e5e3-c58e-4dfc-b7c7-627b943f2c5a",
+        "template--20312964825395__540f437e-ff7a-42d8-88f8-0c7188787370-accordion-2",
+        "d595d653-c1b6-411d-b401-1980485ea68c",
+        "7d8f1409-ca27-4122-85fc-8bae848679d7",
+        "73cacc85-721c-4ba3-9d71-a6791f472384",
+        "bba61bf4-4cab-43df-b353-73b9fc114f7d",
+        "73cf2784-c8fd-412c-9e57-0f28cca41719",
+        "69059d65-538f-4870-8691-b82340f27696",
+        "43baa44f-27d1-43d1-be4a-685e94db6464",
+        "667302f7-b04a-4260-b380-20e21403ead6",
+        "template--20312964825395__540f437e-ff7a-42d8-88f8-0c7188787370-header-2",
+        "template--20312964825395__540f437e-ff7a-42d8-88f8-0c7188787370-accordion-3",
+        "3fbd2720-4a0b-4307-ae09-497bf1307f72",
+        "4805f1b5-5342-458b-be8b-75c5fe76fa2b",
+        "ebee1d33-ad11-47e8-8c3c-ce0c7eb5a717",
+        "e7a588af-2560-49f0-bf8f-c46eb7ea7852",
+        "f6192240-e3c5-4522-9788-9c9134ae381f",
+        "8c32a8c7-1d73-4af9-b282-5f88622241fc",
+        "6113dedd-f34a-498a-a888-5e8ed2958393",
+        "de12287b-39b1-4439-871c-c49e8820da47",
+        "435c7bb7-92f8-4b73-99db-7e6d8bef2fac",
+        "b2c75f48-22c2-483b-8ca7-7cf663d214dd",
+        "6dc64b6e-f1d3-4ed3-8b3b-cf97e6d9b3ac",
+        "c649b1d2-c335-4590-8e06-4f353c3d0b3d",
+        "135deae9-aad8-43ad-a9cf-87ee4b1447a4",
+        "aada9e50-1ba8-482f-b7fb-48c6d62d03b2",
+        "15d0758a-5dcd-4308-8f14-8c059ca836f5",
+        "c2948892-fcf6-4361-aee9-df4517c86a5f",
+        "c5124514-5fec-4fb5-a5f3-304bf0ee5efc",
+        "ed9e3b1c-4518-4566-845c-d50949ba5473",
+        "02c1b690-5e56-4182-af23-219131c50f92",
+        "b9c1a2d2-19a8-47a4-9156-9f13cc12380d",
+        "2a039f7a-fabf-45c9-89fc-c67192bfccee",
+        "81470e9b-b85b-4872-8560-af734d287ca2",
+        "2199081d-480d-48ee-8fa6-0c576ed91ef5",
+        "32781179-1528-4948-a086-dafa38d48c3f",
+        "e9d94ca0-15cb-4afa-a73e-e8893f64e0c0",
+        "c2da74b4-293c-4db5-adc6-86a3f3984470",
+        "b7d3ac26-08bf-4f95-846a-3ba87278ed08",
+        "0e39d03c-bce9-4bbf-8453-320609e2e412",
+        "45ee2152-da8b-49cd-868a-6686353a8eb0",
+        "ff5b635a-e7aa-4ece-bd11-13387614577f"
+      ],
+      "custom_css": [
+        ".accordion__title {font-weight: 800;}"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "blocks_QhiCJi",
+    "section_hero_tAtFT8",
+    "1567c219-0a4b-4f61-9327-0cca00aeb60d",
+    "540f437e-ff7a-42d8-88f8-0c7188787370",
+    "main"
+  ]
+}

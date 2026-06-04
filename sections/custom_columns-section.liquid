@@ -1,0 +1,130 @@
+<!-- /sections/custom_columns-section.liquid -->
+{%-
+  render 'custom-multicolumn',
+  section: section
+-%}
+
+{% schema %}
+{
+  "name": "Custom column with images",
+  "class": "index-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 1,
+      "max": 15,
+      "step": 1,
+      "default": 5
+    },
+    {
+      "type": "range",
+      "id": "column_count",
+      "label": "Number of columns",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "default": 6
+    },
+    {
+      "type": "header",
+      "content": "Alignment"
+    },
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "Text",
+      "default": "text-left",
+      "options": [
+        {
+          "value": "text-left",
+          "label": "Left"
+        },
+        {
+          "value": "text-center",
+          "label": "Centered"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "align_columns",
+      "label": "Columns",
+      "default": "flex-align-top",
+      "options": [
+        {
+          "value": "flex-align-top",
+          "label": "Top"
+        },
+        {
+          "value": "flex-align-center",
+          "label": "Centered"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full-padded",
+      "options": [
+        {"value": "wrapper--full-padded", "label": "Full width padded"},
+        {"value": "wrapper", "label": "Normal"}
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "color",
+      "label": "Text"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 50
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom columns with images",
+      "category": "Text"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header", "footer", "custom.pre_footer"]
+  }
+}
+{% endschema %}

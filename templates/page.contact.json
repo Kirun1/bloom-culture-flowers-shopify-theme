@@ -1,0 +1,209 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_double_MTxKj9": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_7jcMnU": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_amawJx": {
+          "type": "heading",
+          "settings": {
+            "title": "Get in Touch",
+            "heading_font_size": "heading-x-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_k8K4zk": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_EGAP8H": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7jcMnU",
+        "heading_amawJx",
+        "text_k8K4zk",
+        "buttons_EGAP8H"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Bloom_Culture_LLAYTON-172_4b93d5b5-b0d5-488f-8c74-18cc2d471ac2.jpg",
+        "image_width": "three-quarters",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": true,
+        "color_scheme": "scheme-b554e65b-3af1-4b95-85d5-02f0bf781144",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "d0170dbb-f6d5-4fea-a248-754abb5dc5ec": {
+      "type": "section-rich-text",
+      "blocks": {
+        "80805f84-98b0-40f6-9e35-b588e7e7b4af": {
+          "type": "heading",
+          "settings": {
+            "title": "We'd Love to Hear From You",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--18864357146931__d0170dbb-f6d5-4fea-a248-754abb5dc5ec-1686599968cb4c6f79-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "GET IN TOUCH",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--18864357146931__d0170dbb-f6d5-4fea-a248-754abb5dc5ec-1686599968cb4c6f79-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you have any questions let us know as we are happy to help in any way we can. Fill out the form below or <a href=\"mailto:hello@bloomcultureflowers.com\">send us and email </a>💫 </p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "80805f84-98b0-40f6-9e35-b588e7e7b4af",
+        "template--18864357146931__d0170dbb-f6d5-4fea-a248-754abb5dc5ec-1686599968cb4c6f79-1",
+        "template--18864357146931__d0170dbb-f6d5-4fea-a248-754abb5dc5ec-1686599968cb4c6f79-2"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 74,
+        "padding_bottom": 0
+      }
+    },
+    "contact": {
+      "type": "contact-form",
+      "blocks": {
+        "Name": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name",
+            "required": true
+          }
+        },
+        "Email": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "required": true
+          }
+        },
+        "202fe47f-d102-4b41-9bbd-c375f185dfdb": {
+          "type": "text",
+          "settings": {
+            "title": "Wedding Date",
+            "required": false
+          }
+        },
+        "Options-select": {
+          "type": "select",
+          "settings": {
+            "title": "I am interested in learning more about:",
+            "required": false,
+            "label-one": "- Select One -",
+            "label-two": "The Collections",
+            "label-three": "Custom Design",
+            "label-four": "The DIY Guide",
+            "label-five": "Collab Opportunities",
+            "label-six": "Floral Education"
+          }
+        },
+        "Message": {
+          "type": "body",
+          "settings": {
+            "title": "Message",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "Name",
+        "Email",
+        "202fe47f-d102-4b41-9bbd-c375f185dfdb",
+        "Options-select",
+        "Message"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-large",
+        "terms": false,
+        "width": "wrapper--narrow",
+        "color_scheme": "",
+        "padding_top": 25,
+        "padding_bottom": 100,
+        "heading_tag": "automatic"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_double_MTxKj9",
+    "d0170dbb-f6d5-4fea-a248-754abb5dc5ec",
+    "contact",
+    "main"
+  ]
+}

@@ -1,0 +1,53 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cart",
+      "blocks": {
+        "payment_icons_WVbzWP": {
+          "type": "payment-icons",
+          "disabled": true,
+          "settings": {
+            "enable_greyscale": false
+          }
+        },
+        "bundle_products_abD9Hi": {
+          "type": "bundle-products",
+          "disabled": true,
+          "settings": {
+            "bundle_title": "Bundle and save 10%",
+            "upsell_auto_open": true
+          }
+        },
+        "checkout_buttons_QyU3eP": {
+          "type": "checkout-buttons",
+          "settings": {
+            "enable_additional_buttons": false
+          }
+        }
+      },
+      "block_order": [
+        "payment_icons_WVbzWP",
+        "bundle_products_abD9Hi",
+        "checkout_buttons_QyU3eP"
+      ],
+      "settings": {
+        "text_font_size": "body-medium",
+        "color_scheme": "",
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

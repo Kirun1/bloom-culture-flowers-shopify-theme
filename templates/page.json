@@ -1,0 +1,737 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "9877499e-39a3-4df3-9b82-1624f914036c": {
+      "type": "section-double",
+      "blocks": {
+        "ab18a91a-ce6f-4fec-9791-41940cc9a762": {
+          "type": "heading",
+          "settings": {
+            "title": "ARE YOU A BUDDING FLORIST?"
+          }
+        },
+        "template--18864357507379__9877499e-39a3-4df3-9b82-1624f914036c-16835735106f9f7dbd-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Learn how to price your floral services with confidence."
+          }
+        },
+        "template--18864357507379__9877499e-39a3-4df3-9b82-1624f914036c-16835735106f9f7dbd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you second guess yourself whenever it comes to pricing? Do you find yourself pricing out of fear—or feelings—instead of knowledge?</p><p><strong>What if someone could show you EXACTLY how to price for profit in a simple and effective way?</strong></p>"
+          }
+        },
+        "template--18864357507379__9877499e-39a3-4df3-9b82-1624f914036c-16835735106f9f7dbd-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Get Started for $499",
+            "button_url": "https://bloomcultureflowers.podia.com/floral-pricing-for-the-budding-florist/buy",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "ab18a91a-ce6f-4fec-9791-41940cc9a762",
+        "template--18864357507379__9877499e-39a3-4df3-9b82-1624f914036c-16835735106f9f7dbd-0",
+        "template--18864357507379__9877499e-39a3-4df3-9b82-1624f914036c-16835735106f9f7dbd-1",
+        "template--18864357507379__9877499e-39a3-4df3-9b82-1624f914036c-16835735106f9f7dbd-2"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/BloomCultureGoDaddy_004.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "6a90ce13-d37b-43a8-8be9-c956946d42d8": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--18864357507379__6a90ce13-d37b-43a8-8be9-c956946d42d8-1683574723a33e2d22-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-asset_2.png",
+            "title": "",
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--18864357507379__6a90ce13-d37b-43a8-8be9-c956946d42d8-1683574723a33e2d22-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "INTRODUCING",
+            "title": "Floral Pricing For The Budding Florist",
+            "text": "<p>A step-by-step digital guide with templates teaching you how to price your floral design services for profit.</p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18864357507379__6a90ce13-d37b-43a8-8be9-c956946d42d8-1683574723a33e2d22-0",
+        "template--18864357507379__6a90ce13-d37b-43a8-8be9-c956946d42d8-1683574723a33e2d22-1"
+      ],
+      "settings": {
+        "borders": false,
+        "width": "wrapper",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "f059fc27-c523-48c7-9568-43afc92dc977": {
+      "type": "section-text-row",
+      "blocks": {
+        "template--18864357507379__f059fc27-c523-48c7-9568-43afc92dc977-1683575989181beb3b-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flower",
+            "icon_size": 20,
+            "icon_color": "{{ shop.brand.colors.secondary[0].background }}",
+            "title": "Pricing calculators for everyday retail designs",
+            "text": ""
+          }
+        },
+        "template--18864357507379__f059fc27-c523-48c7-9568-43afc92dc977-1683575989181beb3b-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flower",
+            "icon_size": 20,
+            "icon_color": "{{ shop.brand.colors.secondary[0].background }}",
+            "title": "Sample recipes + pricing for 20+ common designs",
+            "text": ""
+          }
+        },
+        "template--18864357507379__f059fc27-c523-48c7-9568-43afc92dc977-1683575989181beb3b-2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flower",
+            "icon_size": 20,
+            "icon_color": "{{ shop.brand.colors.secondary[0].background }}",
+            "title": "Templates to Budget, Quote & Recipe Write",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18864357507379__f059fc27-c523-48c7-9568-43afc92dc977-1683575989181beb3b-0",
+        "template--18864357507379__f059fc27-c523-48c7-9568-43afc92dc977-1683575989181beb3b-1",
+        "template--18864357507379__f059fc27-c523-48c7-9568-43afc92dc977-1683575989181beb3b-2"
+      ],
+      "settings": {
+        "title": "Includes",
+        "align_text": "text-left",
+        "icon_alignment": "icon--left",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "carousel",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "9f4c5f50-f86d-4332-aec6-a0b0c9ff2034": {
+      "type": "section-text-row",
+      "blocks": {
+        "9f9958fb-1d0c-4277-a9ae-c4cf0650981c": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flower",
+            "icon_size": 20,
+            "icon_color": "{{ shop.brand.colors.secondary[0].background }}",
+            "title": "Pricing calculators for weddings and events",
+            "text": ""
+          }
+        },
+        "57554651-40d6-44a0-818b-0e4a12885159": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flower",
+            "icon_size": 20,
+            "icon_color": "{{ shop.brand.colors.secondary[0].background }}",
+            "title": "Floral Finance Cheat Sheet + Formulas",
+            "text": ""
+          }
+        },
+        "e1a08df8-32b4-4e7f-8874-008973bc9e5b": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flower",
+            "icon_size": 20,
+            "icon_color": "{{ shop.brand.colors.secondary[0].background }}",
+            "title": "Client Questionnaire Template",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "9f9958fb-1d0c-4277-a9ae-c4cf0650981c",
+        "57554651-40d6-44a0-818b-0e4a12885159",
+        "e1a08df8-32b4-4e7f-8874-008973bc9e5b"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "icon_alignment": "icon--left",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "carousel",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "d5985525-17d6-479c-9704-99a7e88fc9a1": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--18864357507379__d5985525-17d6-479c-9704-99a7e88fc9a1-168357345072502bfb-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Floral Pricing For The Budding Florist"
+          }
+        },
+        "template--18864357507379__d5985525-17d6-479c-9704-99a7e88fc9a1-168357345072502bfb-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>$499 one-time / $249 in 2 monthly payments</em></p>"
+          }
+        },
+        "template--18864357507379__d5985525-17d6-479c-9704-99a7e88fc9a1-168357345072502bfb-3": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Sign Up",
+            "button_url": "https://bloomcultureflowers.podia.com/floral-pricing-for-the-budding-florist/buy",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "template--18864357507379__d5985525-17d6-479c-9704-99a7e88fc9a1-168357345072502bfb-1",
+        "template--18864357507379__d5985525-17d6-479c-9704-99a7e88fc9a1-168357345072502bfb-2",
+        "template--18864357507379__d5985525-17d6-479c-9704-99a7e88fc9a1-168357345072502bfb-3"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "padding_top": 68,
+        "padding_bottom": 68
+      }
+    },
+    "10544e9d-036e-4984-b044-f14018f915f6": {
+      "type": "section-double",
+      "blocks": {
+        "dd61426e-4bf3-4ef2-9471-403beb8b1f55": {
+          "type": "heading",
+          "settings": {
+            "title": "MEET YOUR GUIDE"
+          }
+        },
+        "template--18864357507379__10544e9d-036e-4984-b044-f14018f915f6-16835735106f9f7dbd-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Hey friend, I’m Alison Fleck."
+          }
+        },
+        "template--18864357507379__10544e9d-036e-4984-b044-f14018f915f6-16835735106f9f7dbd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A floral educator, Martha Stewart Top Florist, and the founder of Bloom Culture.</p><p>Most of us get into the business of floral design because of our passion. We love to create with the best that nature has to offer, and it brings us great joy to help people celebrate through flowers…. But then comes the<em> “making money”</em> part. </p><ul><li>What’s the right way to price my services? </li><li>What should the mark-up on my product be? </li><li>Is there a right way to account for labor and other fees?</li><li>How does everyone <em>else</em> do it? </li></ul><p>All. The. Questions. So. Much. Guessing. </p><p>Unless you find answers to these questions—and quickly—you’ll burn out as you work harder and harder to try and make your business profitable. </p><p>I’ve been there, and I found the answers. But it was HARD and took me 10+ YEARS and <em>hundreds</em> or weddings.</p><p>I don’t want that for you. <strong>I want you to have all the information you need at your fingertips so you can set about creating a profitable, sustainable business from the outset. </strong></p><p>Pretty sure you want that too, yeah?! </p>"
+          }
+        },
+        "template--18864357507379__10544e9d-036e-4984-b044-f14018f915f6-16835735106f9f7dbd-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Let's Do It",
+            "button_url": "https://bloomcultureflowers.podia.com/floral-pricing-for-the-budding-florist/buy",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "dd61426e-4bf3-4ef2-9471-403beb8b1f55",
+        "template--18864357507379__10544e9d-036e-4984-b044-f14018f915f6-16835735106f9f7dbd-0",
+        "template--18864357507379__10544e9d-036e-4984-b044-f14018f915f6-16835735106f9f7dbd-1",
+        "template--18864357507379__10544e9d-036e-4984-b044-f14018f915f6-16835735106f9f7dbd-2"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/image-asset_1.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8b726a93-61f6-420a-b6ed-a102a44d6362": {
+      "type": "section-text-row",
+      "blocks": {
+        "template--18864357507379__8b726a93-61f6-420a-b6ed-a102a44d6362-1683575989181beb3b-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/1_1.png",
+            "icon_size": 60,
+            "icon_color": "#545454",
+            "title": "Floral Recipes",
+            "text": "<p>Save <strong>TIME </strong>not having to recipe write for common designs.</p>"
+          }
+        },
+        "ed2da724-0de1-48e7-8967-3587ac5af1b4": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/2_2.png",
+            "icon_size": 60,
+            "icon_color": "#545454",
+            "title": "Price Guides",
+            "text": "<p>Save <strong>MONEY </strong>knowing how to price your services and product for profit.</p>"
+          }
+        },
+        "4cc4b72a-33e0-40ba-b866-34de7d1d1789": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/3_2.png",
+            "icon_size": 60,
+            "icon_color": "#545454",
+            "title": "Peace of Mind",
+            "text": "<p>Save <strong>SANITY </strong>by saying goodbye to the floral pricing guessing game!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18864357507379__8b726a93-61f6-420a-b6ed-a102a44d6362-1683575989181beb3b-0",
+        "ed2da724-0de1-48e7-8967-3587ac5af1b4",
+        "4cc4b72a-33e0-40ba-b866-34de7d1d1789"
+      ],
+      "settings": {
+        "title": "Finally, a definitive answer to the question: “How much should I charge for this?”",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "carousel",
+        "padding_top": 51,
+        "padding_bottom": 50
+      }
+    },
+    "16947b39-b6e4-4271-b8a9-2f23a3316539": {
+      "type": "section-double",
+      "blocks": {
+        "a9196d4d-0895-4365-addd-c89868016615": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT'S INSIDE FLORAL PRICING FOR THE BUDDING FLORIST"
+          }
+        },
+        "d8c58427-dffd-46da-bbde-0567388a49c3": {
+          "type": "heading",
+          "settings": {
+            "title": "What You Get"
+          }
+        },
+        "cf93dbcf-6952-4ab2-974c-ebbfd3a35ddc": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>A “plug & play” Floral Pricing Calculator.</li><li>Guide to Pricing Popular Designs</li><li>Sample Floral Recipes for 20+ common wedding designs.</li><li><strong>BONUS!</strong> Design Examples + Recipes + Wholesale & Retail pricing for 20+ including Bridal Party Flowers, Common Ceremony Designs & Reception Centerpieces</li></ul><p><strong>That’s over $1000 in value for JUST </strong><em>$499 </em>(or 2 monthly payments of $249)</p>"
+          }
+        },
+        "8abbe240-9f17-4f2a-87a9-fe52ea5c2bc4": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Get Started for $499",
+            "button_url": "https://bloomcultureflowers.podia.com/floral-pricing-for-the-budding-florist/buy",
+            "button_type": "btn--white",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "a9196d4d-0895-4365-addd-c89868016615",
+        "d8c58427-dffd-46da-bbde-0567388a49c3",
+        "cf93dbcf-6952-4ab2-974c-ebbfd3a35ddc",
+        "8abbe240-9f17-4f2a-87a9-fe52ea5c2bc4"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/cece1-awp_030.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "bec810f1-a346-49b6-bfdd-f4b6ceb3aa48": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--18864357507379__bec810f1-a346-49b6-bfdd-f4b6ceb3aa48-168357345072502bfb-1": {
+          "type": "heading",
+          "settings": {
+            "title": "The principles taught inside Floral Pricing for The Budding Florist will work with any budget but focus on floral budgets from $1500 to $5000+. It’s never too early to get your pricing RIGHT. Here’s more about what we cover inside Floral Pricing 101:"
+          }
+        }
+      },
+      "block_order": [
+        "template--18864357507379__bec810f1-a346-49b6-bfdd-f4b6ceb3aa48-168357345072502bfb-1"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "90eedef8-3ec2-41e3-815e-b00036855df3": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "4cc7c0ee-212b-49fe-957e-12328b76fb8e": {
+          "type": "text",
+          "settings": {
+            "column_width": 50,
+            "title": "Recipe Writing",
+            "text": "<ul><li>Example recipes for small, medium and large wedding designs.</li><li>Working with widely-available product to keep costs at a minimum.</li><li>Complete floral recipes, stem counts, and pricing for 20+ common wedding designs.</li></ul>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "5c3a515a-5fbb-4ac8-b43e-59a7f3800a7f": {
+          "type": "text",
+          "settings": {
+            "column_width": 50,
+            "title": "Pricing",
+            "text": "<ul><li>Learn simple floral pricing rules to apply every time you are costing out a design.</li><li>How to stay on budget and profitable for each wedding.</li><li>A calculator to test, check, and set your pricing.</li></ul>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "4cc7c0ee-212b-49fe-957e-12328b76fb8e",
+        "5c3a515a-5fbb-4ac8-b43e-59a7f3800a7f"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "carousel",
+        "padding_top": 50,
+        "padding_bottom": 100
+      }
+    },
+    "097b8acf-4260-4c0c-8486-ebf435c0793b": {
+      "type": "section-rich-text",
+      "blocks": {
+        "87295d23-39f8-40c4-8007-21c4df159692": {
+          "type": "heading",
+          "settings": {
+            "title": "Floral Pricing For The Budding Florist"
+          }
+        },
+        "5746c41e-17e2-4543-a2fc-8be256e5180a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>$499 one-time / $249 in 2 monthly payments</em></p>"
+          }
+        },
+        "24dd68d6-33f7-4f21-9782-f234ea431d4e": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Sign Up",
+            "button_url": "https://bloomcultureflowers.podia.com/floral-pricing-for-the-budding-florist/buy",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "87295d23-39f8-40c4-8007-21c4df159692",
+        "5746c41e-17e2-4543-a2fc-8be256e5180a",
+        "24dd68d6-33f7-4f21-9782-f234ea431d4e"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "padding_top": 68,
+        "padding_bottom": 68
+      }
+    },
+    "94dcbd1d-07b9-4c7b-b8df-88ee4824d453": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--18864357507379__94dcbd1d-07b9-4c7b-b8df-88ee4824d453-168357345072502bfb-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Lifetime Access   |   24-Hour Money Back Guarantee   |   Optional 1:1 Coaching Add-On"
+          }
+        }
+      },
+      "block_order": [
+        "template--18864357507379__94dcbd1d-07b9-4c7b-b8df-88ee4824d453-168357345072502bfb-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "bfa2f208-c436-4c18-b4b8-d8e932fc983e": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--18864357507379__bfa2f208-c436-4c18-b4b8-d8e932fc983e-1683574723a33e2d22-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20342d0f-d84d-412f-8e61-ca5d4315990d.png",
+            "title": "",
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "06b6d7cb-4c5d-4bdf-979f-0adfee6cce75": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "",
+            "heading": "Not sure yet?",
+            "text": "<p>I've condensed my 3 Pricing Power Moves that helped me turn my first REAL profit into a quick download.</p><p>Hit the download button below, grab yourself a coffee (or champagne — zero judgement!) and then refresh your inbox. My Pricing Power Moves will be in there waiting for you!</p>",
+            "text_columns": 1,
+            "align_text": "text-left",
+            "show_name": true,
+            "button_text": "Give It To Me!",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18864357507379__bfa2f208-c436-4c18-b4b8-d8e932fc983e-1683574723a33e2d22-0",
+        "06b6d7cb-4c5d-4bdf-979f-0adfee6cce75"
+      ],
+      "settings": {
+        "borders": false,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "fc7bda4d-96a8-45cc-8ff2-7d033f4c2f59": {
+      "type": "section-rich-text",
+      "blocks": {
+        "893401a5-06a9-454d-9d2b-7ddfb0c3894c": {
+          "type": "heading",
+          "settings": {
+            "title": "Floral Pricing For The Budding Florist"
+          }
+        },
+        "aed047de-271c-497a-a4d7-9a9b732a37a2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>$499 one-time / $249 in 2 monthly payments</em></p>"
+          }
+        },
+        "5bd88c5b-4725-4264-abc6-4c507df7d2fa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Includes: Plug & play floral pricing calculators, guide to pricing popular designs, sample floral recipes and bonus design examples, recipes & pricing.</p>"
+          }
+        },
+        "72bf0788-005c-4fb8-bf18-da13a2e683f2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Start Today",
+            "button_url": "https://bloomcultureflowers.podia.com/floral-pricing-for-the-budding-florist/buy",
+            "button_type": "btn--white",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "893401a5-06a9-454d-9d2b-7ddfb0c3894c",
+        "aed047de-271c-497a-a4d7-9a9b732a37a2",
+        "5bd88c5b-4725-4264-abc6-4c507df7d2fa",
+        "72bf0788-005c-4fb8-bf18-da13a2e683f2"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "padding_top": 68,
+        "padding_bottom": 68
+      }
+    },
+    "6848ab7c-9c51-4559-8b76-bcdca192c562": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--18864357507379__6848ab7c-9c51-4559-8b76-bcdca192c562-168357345072502bfb-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "MORE BUDDING FLORIST RESOURCES"
+          }
+        },
+        "template--18864357507379__6848ab7c-9c51-4559-8b76-bcdca192c562-168357345072502bfb-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Minimize your margin of error with a trustworthy blueprint and instructional videos from yours truly."
+          }
+        }
+      },
+      "block_order": [
+        "template--18864357507379__6848ab7c-9c51-4559-8b76-bcdca192c562-168357345072502bfb-0",
+        "template--18864357507379__6848ab7c-9c51-4559-8b76-bcdca192c562-168357345072502bfb-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "75e0ddad-c564-481a-87d4-40743db67b60": {
+      "type": "section-columns",
+      "blocks": {
+        "template--18864357507379__75e0ddad-c564-481a-87d4-40743db67b60-168357557441858179-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Floral_Design_Recipe_Book_for_DD_-_Budding_Florist.png",
+            "title": "Floral Design Recipe Book $49",
+            "text": "<p>20 Sample Recipes for:</p><ul><li>Wedding Party</li><li>Ceremony Flowers</li><li>Reception Flowers</li></ul><p>And more, all with wholesale pricing, stem count, suggested pricing, varieties used, and tutorials.</p>",
+            "button_text": "Buy The Book",
+            "button_url": "https://bloomcultureflowers.podia.com/floral-design-recipe-book-for-the-budding-florist",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--18864357507379__75e0ddad-c564-481a-87d4-40743db67b60-168357557441858179-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Floral_Coaching.png",
+            "title": "Budding Florist Coaching Session $197",
+            "text": "<p>This 1:1 Coaching Call is a 45 minute video or phone conversation to go in-depth into a particular aspect of your floral business to discuss questions you have</p>",
+            "button_text": "Book Session",
+            "button_url": "https://bloomcultureflowers.podia.com/1-1-budding-florist-coaching-session",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18864357507379__75e0ddad-c564-481a-87d4-40743db67b60-168357557441858179-0",
+        "template--18864357507379__75e0ddad-c564-481a-87d4-40743db67b60-168357557441858179-1"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "carousel",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "9877499e-39a3-4df3-9b82-1624f914036c",
+    "6a90ce13-d37b-43a8-8be9-c956946d42d8",
+    "f059fc27-c523-48c7-9568-43afc92dc977",
+    "9f4c5f50-f86d-4332-aec6-a0b0c9ff2034",
+    "d5985525-17d6-479c-9704-99a7e88fc9a1",
+    "10544e9d-036e-4984-b044-f14018f915f6",
+    "8b726a93-61f6-420a-b6ed-a102a44d6362",
+    "16947b39-b6e4-4271-b8a9-2f23a3316539",
+    "bec810f1-a346-49b6-bfdd-f4b6ceb3aa48",
+    "90eedef8-3ec2-41e3-815e-b00036855df3",
+    "097b8acf-4260-4c0c-8486-ebf435c0793b",
+    "94dcbd1d-07b9-4c7b-b8df-88ee4824d453",
+    "bfa2f208-c436-4c18-b4b8-d8e932fc983e",
+    "fc7bda4d-96a8-45cc-8ff2-7d033f4c2f59",
+    "6848ab7c-9c51-4559-8b76-bcdca192c562",
+    "75e0ddad-c564-481a-87d4-40743db67b60",
+    "main"
+  ]
+}

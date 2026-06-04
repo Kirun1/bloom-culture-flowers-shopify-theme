@@ -1,0 +1,346 @@
+{% doc %}
+  @prompt
+    three column similar to text with icon but no icon Should Have heading (control size) and paragraph text (control size) control top and bottom padding, option to be left not just center.  control layout from top, option for full size with padding, normal and narrow, Can we have the option for an overall larger header with an option for a text sentance below.  that is above columns.  Like an intro heading and one sentance.  Control sizing and padding between this and columns
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-three-column-{{ ai_gen_id }} {
+    padding-top: {{ block.settings.padding_top }}px;
+    padding-bottom: {{ block.settings.padding_bottom }}px;
+  }
+
+  .ai-three-column-container-{{ ai_gen_id }} {
+    margin: 0 auto;
+    {% if block.settings.container_width == 'full' %}
+      max-width: 100%;
+      padding: 0 40px;
+    {% elsif block.settings.container_width == 'normal' %}
+      max-width: 1200px;
+      padding: 0 20px;
+    {% else %}
+      max-width: 900px;
+      padding: 0 20px;
+    {% endif %}
+  }
+
+  .ai-three-column-intro-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.intro_spacing }}px;
+    {% if block.settings.text_alignment == 'left' %}
+      text-align: left;
+    {% elsif block.settings.text_alignment == 'center' %}
+      text-align: center;
+    {% else %}
+      text-align: right;
+    {% endif %}
+  }
+
+  .ai-three-column-intro-heading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.intro_heading_size }}px;
+    margin: 0 0 15px;
+    color: inherit;
+  }
+
+  .ai-three-column-intro-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.intro_text_size }}px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .ai-three-column-grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .ai-three-column-item-{{ ai_gen_id }} {
+    {% if block.settings.text_alignment == 'left' %}
+      text-align: left;
+    {% elsif block.settings.text_alignment == 'center' %}
+      text-align: center;
+    {% else %}
+      text-align: right;
+    {% endif %}
+  }
+
+  .ai-three-column-heading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.heading_size }}px;
+    margin: 0 0 15px;
+    color: inherit;
+  }
+
+  .ai-three-column-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.text_size }}px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-three-column-container-{{ ai_gen_id }} {
+      padding: 0 20px;
+    }
+
+    .ai-three-column-intro-heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.intro_heading_size | times: 0.8 }}px;
+    }
+
+    .ai-three-column-intro-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.intro_text_size | times: 0.9 }}px;
+    }
+
+    .ai-three-column-grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    .ai-three-column-heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.heading_size | times: 0.9 }}px;
+    }
+
+    .ai-three-column-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.text_size | times: 0.9 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-three-column-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-three-column-container-{{ ai_gen_id }}">
+    {% if block.settings.intro_heading != blank or block.settings.intro_text != blank %}
+      <div class="ai-three-column-intro-{{ ai_gen_id }}">
+        {% if block.settings.intro_heading != blank %}
+          <h2 class="ai-three-column-intro-heading-{{ ai_gen_id }}">{{ block.settings.intro_heading }}</h2>
+        {% endif %}
+        {% if block.settings.intro_text != blank %}
+          <div class="ai-three-column-intro-text-{{ ai_gen_id }}">{{ block.settings.intro_text }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="ai-three-column-grid-{{ ai_gen_id }}">
+      <div class="ai-three-column-item-{{ ai_gen_id }}">
+        {% if block.settings.heading_1 != blank %}
+          <h3 class="ai-three-column-heading-{{ ai_gen_id }}">{{ block.settings.heading_1 }}</h3>
+        {% endif %}
+        {% if block.settings.text_1 != blank %}
+          <div class="ai-three-column-text-{{ ai_gen_id }}">{{ block.settings.text_1 }}</div>
+        {% endif %}
+      </div>
+
+      <div class="ai-three-column-item-{{ ai_gen_id }}">
+        {% if block.settings.heading_2 != blank %}
+          <h3 class="ai-three-column-heading-{{ ai_gen_id }}">{{ block.settings.heading_2 }}</h3>
+        {% endif %}
+        {% if block.settings.text_2 != blank %}
+          <div class="ai-three-column-text-{{ ai_gen_id }}">{{ block.settings.text_2 }}</div>
+        {% endif %}
+      </div>
+
+      <div class="ai-three-column-item-{{ ai_gen_id }}">
+        {% if block.settings.heading_3 != blank %}
+          <h3 class="ai-three-column-heading-{{ ai_gen_id }}">{{ block.settings.heading_3 }}</h3>
+        {% endif %}
+        {% if block.settings.text_3 != blank %}
+          <div class="ai-three-column-text-{{ ai_gen_id }}">{{ block.settings.text_3 }}</div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Three column text",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "container_width",
+      "label": "Container width",
+      "options": [
+        {
+          "value": "full",
+          "label": "Full width"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "narrow",
+          "label": "Narrow"
+        }
+      ],
+      "default": "normal"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Introduction"
+    },
+    {
+      "type": "text",
+      "id": "intro_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "intro_text",
+      "label": "Text"
+    },
+    {
+      "type": "range",
+      "id": "intro_heading_size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading size",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "intro_text_size",
+      "min": 14,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "label": "Text size",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "intro_spacing",
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Spacing below intro",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Column 1"
+    },
+    {
+      "type": "text",
+      "id": "heading_1",
+      "label": "Heading",
+      "default": "Column 1"
+    },
+    {
+      "type": "richtext",
+      "id": "text_1",
+      "label": "Text",
+      "default": "<p>Share information about your brand with your customers.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Column 2"
+    },
+    {
+      "type": "text",
+      "id": "heading_2",
+      "label": "Heading",
+      "default": "Column 2"
+    },
+    {
+      "type": "richtext",
+      "id": "text_2",
+      "label": "Text",
+      "default": "<p>Share information about your brand with your customers.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Column 3"
+    },
+    {
+      "type": "text",
+      "id": "heading_3",
+      "label": "Heading",
+      "default": "Column 3"
+    },
+    {
+      "type": "richtext",
+      "id": "text_3",
+      "label": "Text",
+      "default": "<p>Share information about your brand with your customers.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Column typography"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 14,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading size",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Text size",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "Three column text"
+    }
+  ]
+}
+{% endschema %}

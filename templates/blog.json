@@ -1,0 +1,146 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_nEqQxN": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_38hpJf": {
+          "type": "heading",
+          "settings": {
+            "title": "DIY Blog",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_P6idCi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Create space for once-in-a-lifetime memories with DIY wedding flowers.</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
+        "button_NPPe4j": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_38hpJf",
+        "text_P6idCi",
+        "button_NPPe4j"
+      ],
+      "custom_css": [],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/Bloom_Culture_LLAYTON-205_c76e9d43-7403-47f8-8b19-b643530a2caf.png",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-10",
+        "show_text_background": false,
+        "overlay_type": "text",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "b9af2f00-be1a-4b8f-8411-43117942b59a": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--19618654650675__b9af2f00-be1a-4b8f-8411-43117942b59a-16880734182ce68b9e-1": {
+          "type": "heading",
+          "settings": {
+            "title": "DIY Blog",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "template--19618654650675__b9af2f00-be1a-4b8f-8411-43117942b59a-16880734182ce68b9e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Create space for once-in-a-lifetime memories with DIY wedding flowers.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "template--19618654650675__b9af2f00-be1a-4b8f-8411-43117942b59a-16880734182ce68b9e-1",
+        "template--19618654650675__b9af2f00-be1a-4b8f-8411-43117942b59a-16880734182ce68b9e-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-1",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 10
+      }
+    },
+    "section_divider_Ycw3Ue": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "blog",
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "show_rss": false,
+        "show_tag_nav": true,
+        "aspect_ratio": 1.5,
+        "title_font_size": "heading-small",
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false,
+        "grid": 3,
+        "rows": 5,
+        "color_scheme": "",
+        "padding_top": 10,
+        "padding_bottom": 50,
+        "title_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_hero_nEqQxN",
+    "b9af2f00-be1a-4b8f-8411-43117942b59a",
+    "section_divider_Ycw3Ue",
+    "main"
+  ]
+}
