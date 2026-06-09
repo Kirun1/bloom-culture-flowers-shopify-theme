@@ -147,6 +147,11 @@ footer{background:var(--sage-deep);color:rgba(247,246,240,.7);text-align:center;
 </style>
 <div id="bcf-landing">
 
+<!-- alert banner (hidden by default) -->
+<div id="bcf-alert-banner" style="display:none; background:var(--rose-tint); color:var(--rose-deep); border-bottom:1px solid #ebc6cc; padding:14px 28px; font-family:var(--sans); font-size:14.5px; text-align:center; font-weight:500; position:relative; z-index:100;">
+  <span style="display:inline-block; margin-right:8px;">⚠️</span> Access expired or unauthorized. Please purchase the planner or wedding flowers to unlock.
+</div>
+
 <!-- sticky bar -->
 <div class="bar">
   <div class="wrap">
@@ -376,5 +381,18 @@ This makes them feel doable.</h2>
   <div>DIY Wedding Flower Planner · Free with every flower order</div>
   <div style="margin-top:14px;font-size:12px;opacity:.75;">© 2026 Bloom Culture™. All rights reserved.</div>
 </footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var params = new URLSearchParams(window.location.search);
+    if (params.get("status") === "unauthorized") {
+      var banner = document.getElementById("bcf-alert-banner");
+      if (banner) {
+        banner.style.display = "block";
+        banner.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  });
+</script>
 
 </div>

@@ -36,10 +36,10 @@
   {% else %}
     {% comment %} Logged in but not authorized or access expired {% endcomment %}
     <script>
-      window.location.href = "/pages/diy-wedding-flowers-planner";
+      window.location.href = "/pages/diy-wedding-flowers-planner?status=unauthorized";
     </script>
     <noscript>
-      <p>Access expired or unauthorized. Please purchase the planner or wedding flowers to unlock. <a href="/pages/diy-wedding-flowers-planner">Click here to continue</a>.</p>
+      <p>Access expired or unauthorized. Please purchase the planner or wedding flowers to unlock. <a href="/pages/diy-wedding-flowers-planner?status=unauthorized">Click here to continue</a>.</p>
     </noscript>
   {% endif %}
 {% else %}
