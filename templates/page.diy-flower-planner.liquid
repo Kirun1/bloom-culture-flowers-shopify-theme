@@ -45,9 +45,9 @@
 {% else %}
   {% comment %} Not logged in: Redirect to login page and redirect back after login {% endcomment %}
   <script>
-    window.location.href = "/account/login?checkout_url=" + encodeURIComponent(window.location.pathname);
+    window.location.href = "/customer_authentication/login?return_to=" + encodeURIComponent(window.location.pathname);
   </script>
   <noscript>
-    <p>Please <a href="/account/login">log in</a> to access your wedding flower planner.</p>
+    <p>Please <a href="/customer_authentication/login?return_to={{ request.path | url_encode }}">log in</a> to access your wedding flower planner.</p>
   </noscript>
 {% endif %}
