@@ -1152,7 +1152,7 @@
             return fetch('/cart/update.js', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ attributes: { 'DIY Recipe Plan': summaryText } })
+              body: JSON.stringify({ note: 'Your cart is based on the recommended quantities from your Build Your Own Package recipes, designed to give you enough flowers for the arrangements you built. If you reduce any quantities, we can\u0027t be held responsible for shortfalls.', attributes: { 'DIY Recipe Plan': summaryText } })
             });
           });
         })
