@@ -1,14 +1,14 @@
 {% comment %}
   Bloom Culture Flowers — Shortfall Protection Script
-  This script listens for quantity changes in the cart. If a customer reduces the quantity of a 
-  Quote Builder item below its recommended amount (stored in `_bcf_recommended_qty`), it pops up an alert.
+  Fires a warning when a customer reduces the quantity of a Quote Builder item
+  below its recommended amount (stored in `_bcf_recommended_qty`).
+  Works on both the /cart page AND cart drawers (AJAX carts).
 {% endcomment %}
 <script>
   (function() {
-    // Only run on the cart page
-    if (window.location.pathname.indexOf('/cart') !== 0) return;
-
     var warnedLines = {};
+    var modalShown = false;
+    var BCF_WARNING = 'Your cart is based on the recommended quantities from your Build Your Own Package recipes, designed to give you everything you need. If you change these amounts, your results may differ from the recipes, and we will not be held responsible for adjustments that deviate from our recommendations.';
 
     function checkQuantities() {
       fetch('/cart.js')
@@ -17,12 +17,12 @@
           (cart.items || []).forEach(function(item) {
             var recQtyStr = item.properties && item.properties['_bcf_recommended_qty'];
             if (!recQtyStr) return;
-            
+
             var recQty = parseInt(recQtyStr, 10);
             if (item.quantity > 0 && item.quantity < recQty) {
               if (!warnedLines[item.key]) {
                 warnedLines[item.key] = true;
-                alert("Your cart is based on the recommended quantities from your Build Your Own Package recipes, designed to give you everything you need. If you change these amounts, your results may differ from the recipes, and we will not be held responsible for adjustments that deviate from our recommendations.");
+                showWarning();
               }
             }
           });
@@ -30,36 +30,67 @@
         .catch(function(err) { console.error('[BCF] Error checking cart quantities:', err); });
     }
 
-    // Initial check on load
-    checkQuantities();
+    function showWarning() {
+      if (modalShown) return;
+      modalShown = true;
+      var overlay = document.createElement('div');
+      overlay.style.cssText = 'position:fixed;inset:0;z-index:99999;background:rgba(20,28,20,.55);display:flex;align-items:center;justify-content:center;padding:20px;';
+      overlay.innerHTML = '<div style="background:#fff;border-radius:16px;max-width:480px;width:100%;padding:28px 26px 22px;box-shadow:0 12px 40px rgba(0,0,0,.25);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;">' +
+        '<div style="font-size:22px;margin-bottom:6px;">⚠️</div>' +
+        '<div style="font-weight:700;font-size:16px;color:#2c352a;margin-bottom:10px;">Quantity reduced below recommended</div>' +
+        '<div style="font-size:14px;line-height:1.55;color:#555;">' + BCF_WARNING + '</div>' +
+        '<button id="bcfShortfallOk" style="margin-top:16px;border:0;border-radius:999px;background:#2c352a;color:#f7f6f0;font-weight:700;font-size:14px;padding:12px 28px;cursor:pointer;display:block;width:100%;">I understand</button>' +
+        '</div>';
+      document.body.appendChild(overlay);
+      overlay.querySelector('#bcfShortfallOk').addEventListener('click', function() {
+        document.body.removeChild(overlay);
+        modalShown = false;
+      });
+      overlay.addEventListener('click', function(e) {
+        if (e.target === overlay) {
+          document.body.removeChild(overlay);
+          modalShown = false;
+        }
+      });
+    }
 
-    // Hook into Fetch API to intercept Shopify AJAX cart updates
+    // Check on initial load if on cart page
+    if (window.location.pathname.indexOf('/cart') === 0) {
+      setTimeout(checkQuantities, 800);
+    }
+
+    // Hook into Fetch API to intercept AJAX cart updates (works for both /cart page and cart drawers)
     var origFetch = window.fetch;
     window.fetch = function() {
       var req = arguments[0];
       var url = (typeof req === 'string') ? req : (req && req.url);
       var p = origFetch.apply(this, arguments);
-      
+
       if (url && (url.indexOf('/cart/change') > -1 || url.indexOf('/cart/update') > -1)) {
         p.then(function(res) {
-          // Re-check quantities after a slight delay to let the theme finish rendering
-          setTimeout(checkQuantities, 500);
+          setTimeout(checkQuantities, 600);
           return res;
         });
       }
       return p;
     };
-    
-    // Also hook XMLHttpRequest (if the theme uses jQuery.ajax for cart changes)
+
+    // Also hook XMLHttpRequest (for jQuery.ajax cart themes)
     var origOpen = XMLHttpRequest.prototype.open;
     XMLHttpRequest.prototype.open = function() {
       var url = arguments[1];
       this.addEventListener('load', function() {
         if (url && (url.indexOf('/cart/change') > -1 || url.indexOf('/cart/update') > -1)) {
-          setTimeout(checkQuantities, 500);
+          setTimeout(checkQuantities, 600);
         }
       });
       origOpen.apply(this, arguments);
     };
+
+    // Listen for custom Shopify theme events (many themes emit these for cart drawer updates)
+    document.addEventListener('cart:updated', function() { setTimeout(checkQuantities, 600); });
+    document.addEventListener('cart:build', function() { setTimeout(checkQuantities, 600); });
+    document.addEventListener('theme:cart:change', function() { setTimeout(checkQuantities, 600); });
+
   })();
 </script>

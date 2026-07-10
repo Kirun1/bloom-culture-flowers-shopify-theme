@@ -131,9 +131,9 @@
   #bcf-quote .vthumb.ph::after{ content:'\2767'; color:var(--sage); font-size:15px; }
   #bcf-quote .vname{ flex:1; min-width:0; font-size:14.5px; font-weight:600; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   #bcf-quote .vchev{ color:var(--ink-faint); flex-shrink:0; display:flex; }
-  #bcf-quote .vgal{ position:fixed; inset:0; z-index:120; background:rgba(20,28,20,.5); display:none; align-items:flex-end; justify-content:center; }
+  #bcf-quote .vgal{ position:fixed; inset:0; z-index:120; background:rgba(20,28,20,.5); display:none; align-items:flex-end; justify-content:center; padding-top:var(--bcf-header-h,70px); }
   #bcf-quote .vgal.on{ display:flex; }
-  #bcf-quote .vgal-card{ background:var(--cream); width:100%; max-width:640px; max-height:86vh; border-radius:20px 20px 0 0; display:flex; flex-direction:column; box-shadow:0 -10px 40px rgba(0,0,0,.3); }
+  #bcf-quote .vgal-card{ background:var(--cream); width:100%; max-width:640px; max-height:calc(100vh - var(--bcf-header-h,70px) - 20px); border-radius:20px 20px 0 0; display:flex; flex-direction:column; box-shadow:0 -10px 40px rgba(0,0,0,.3); }
   @media (min-width:600px){ #bcf-quote .vgal{ align-items:center; } #bcf-quote .vgal-card{ border-radius:20px; } }
   #bcf-quote .vgal-top{ display:flex; align-items:center; justify-content:space-between; padding:18px 20px 10px; }
   #bcf-quote .vgal-title{ font-family:var(--serif); font-weight:600; font-size:20px; color:var(--ink); }
@@ -174,7 +174,7 @@
   #bcf-quote .tlr-ck:has(input:checked){ border-color:var(--rose); background:var(--rose-tint); }
   #bcf-quote #tlrForm .tlr-ck input{ width:auto; flex-shrink:0; margin:0; accent-color:var(--rose); transform:scale(1.15); }
   @media (max-width:520px){ #bcf-quote .tlr-grid{ grid-template-columns:1fr; } }
-  #bcf-quote #tlrForm input, #bcf-quote #tlrForm select, #bcf-quote #tlrForm textarea{ font-family:var(--sans); font-size:14.5px; border:1.5px solid var(--line-strong); border-radius:10px; padding:11px 13px; width:100%; resize:vertical; }
+  #bcf-quote #tlrForm input, #bcf-quote #tlrForm select, #bcf-quote #tlrForm textarea{ font-family:var(--sans); font-size:14.5px; border:1.5px solid var(--line-strong); border-radius:10px; padding:11px 13px; width:100%; resize:vertical; color:var(--ink); background:#fff; }
   #bcf-quote #tlrForm input:focus, #bcf-quote #tlrForm select:focus, #bcf-quote #tlrForm textarea:focus{ outline:none; border-color:var(--rose); }
   #bcf-quote .tlr-send{ border:0; border-radius:999px; background:var(--rose); color:#fff; font-family:var(--mono); font-weight:700; font-size:13px; letter-spacing:.03em; padding:14px; cursor:pointer; }
   #bcf-quote .tlr-send:hover{ background:var(--rose-deep); }
@@ -298,15 +298,21 @@
   #bcf-quote .tcemail:empty{ display:none; }
   #bcf-quote .tcemail{ margin-top:12px; }
   #bcf-quote .tcemail .slform{ display:flex; gap:8px; }
-  #bcf-quote .tcemail .slform input{ flex:1; min-width:0; font-family:var(--sans); font-size:14px; border:0; border-radius:10px; padding:12px; }
+  #bcf-quote .tcemail .slform input{ flex:1; min-width:0; font-family:var(--sans); font-size:14px; border:0; border-radius:10px; padding:12px; color:var(--ink); background:#fff; }
   #bcf-quote .tcemail .slform input:focus{ outline:2px solid var(--rose); }
   #bcf-quote .tcemail .slform button{ border:0; border-radius:10px; background:var(--rose); color:#fff; font-family:var(--mono); font-weight:700; font-size:12px; letter-spacing:.03em; padding:12px 16px; white-space:nowrap; cursor:pointer; }
   #bcf-quote .tcemail .slform button:hover{ background:var(--rose-deep); }
   #bcf-quote .tcemail .slok{ display:block; font-size:13.5px; color:var(--cream); font-weight:600; padding-top:4px; }
   #bcf-quote .tcemail .slnote{ display:block; font-size:13px; color:var(--cream); opacity:.85; padding-top:4px; line-height:1.5; }
-  @media (max-width:560px){ #bcf-quote .tcemail .slform{ flex-direction:column; } }
+  #bcf-quote .tcemail .slerr{ color:var(--rose); font-size:13px; font-weight:600; margin-top:4px; }
+  #bcf-quote .slform.slstack{ display:flex; flex-direction:column; gap:10px; }
+  #bcf-quote .slform.slstack input{ width:100%; color:var(--ink); background:#fff; border:1.5px solid var(--line-strong); border-radius:10px; padding:12px; font-family:var(--sans); font-size:14px; }
+  #bcf-quote .slform.slstack input:focus{ outline:none; border-color:var(--rose); }
+  #bcf-quote .slform.slstack button{ border:0; border-radius:999px; background:var(--rose); color:#fff; font-family:var(--mono); font-weight:700; font-size:13px; letter-spacing:.03em; padding:14px; cursor:pointer; }
+  #bcf-quote .slform.slstack button:hover{ background:var(--rose-deep); }
+  @media (max-width:560px){ #bcf-quote .tcemail .slform:not(.slstack){ flex-direction:column; } }
   #bcf-quote .slform{ display:flex; gap:8px; }
-  #bcf-quote .slform input{ min-width:0; width:200px; font-family:var(--sans); font-size:14px; border:1.5px solid var(--line-strong); border-radius:10px; padding:10px 12px; }
+  #bcf-quote .slform input{ min-width:0; width:200px; font-family:var(--sans); font-size:14px; border:1.5px solid var(--line-strong); border-radius:10px; padding:10px 12px; color:var(--ink); background:#fff; }
   #bcf-quote .slform input:focus{ outline:none; border-color:var(--rose); }
   #bcf-quote .slform button{ border:0; border-radius:10px; background:var(--rose); color:#fff; font-family:var(--mono); font-weight:700; font-size:12px; letter-spacing:.03em; padding:10px 16px; white-space:nowrap; cursor:pointer; }
   #bcf-quote .slform button:hover{ background:var(--rose-deep); }
@@ -609,6 +615,15 @@
   var root = document.getElementById('bcf-quote');
   var PRODUCTS = window.BCF_PRODUCTS, CATS = window.BCF_CATEGORIES;
 
+  /* Auto-detect sticky header height so gallery popup clears the nav */
+  (function detectHeader(){
+    var hdr = document.querySelector('.header-sections, .site-header, header, [data-site-header]');
+    if (hdr) {
+      var h = hdr.getBoundingClientRect().height;
+      if (h > 20 && h < 200) root.style.setProperty('--bcf-header-h', h + 'px');
+    }
+  })();
+
   var CUSTOM_URL = 'https://bloomcultureflowers.com/pages/custom-floral-design';
 
   var ROLE_NAME = { greenery:'Greenery', line:'Line flower', focal:'Focal flower', large:'Statement flower', spray:'Spray flower', detail:'Detail flower', filler:'Filler flower' };
@@ -664,12 +679,12 @@
   function roleOf(name){ var pr=prod(name); return pr?pr.role:''; }
   function thumb(name){
     var url=(window.BCF_PHOTOS||{})[name];
-    if(url) return '<span class="thmb" style="background-image:url(\''+url+'\')"></span>';
+    if(url) return '<span class="thmb"><img src="'+url+'" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;display:block;" loading="lazy" /></span>';
     return '<span class="thmb ph"></span>';
   }
   function vthumb(name){
     var url=(window.BCF_PHOTOS||{})[name];
-    if(url) return '<span class="vthumb" style="background-image:url(\''+url+'\')"></span>';
+    if(url) return '<span class="vthumb"><img src="'+url+'" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;display:block;" loading="lazy" /></span>';
     return '<span class="vthumb ph"></span>';
   }
   function frac(v){
@@ -878,7 +893,7 @@
   function closeGal(){ var g=document.getElementById('bcfVgal'); if(g) g.classList.remove('on'); galTarget=null; }
   function galTile(o, label){
     var url=(window.BCF_PHOTOS||{})[o.name];
-    var img=url?'<span class="vtile-img" style="background-image:url(\''+url+'\')"></span>':'<span class="vtile-img ph"></span>';
+    var img=url?'<span class="vtile-img"><img src="'+url+'" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;display:block;" loading="lazy" /></span>':'<span class="vtile-img ph"></span>';
     var sel=(galCurrent()===o.name)?' on':'';
     return '<button type="button" class="vtile'+sel+'" data-name="'+o.name.replace(/"/g,'&quot;')+'">'+img+'<span class="vtile-name">'+label+'</span></button>';
   }
@@ -962,7 +977,7 @@
     for(var i=0;i<slotIdx;i++){ if(p.recipe[i][0]===role) roleIdx++; }
     return pieceFlowerForSlot(p, role, roleIdx);
   }
-  function thumbMini(name){ var url=(window.BCF_PHOTOS||{})[name]; var t=' title="'+String(name).replace(/"/g,'')+'"'; return url?'<span class="amini"'+t+' style="background-image:url(\''+url+'\')"></span>':'<span class="amini ph"'+t+'></span>'; }
+  function thumbMini(name){ var url=(window.BCF_PHOTOS||{})[name]; var t=' title="'+String(name).replace(/"/g,'')+'"'; return url?'<span class="amini"'+t+'><img src="'+url+'" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;display:block;" loading="lazy" /></span>':'<span class="amini ph"'+t+'></span>'; }
   function renderResults(){
     ensureAmounts();
     var mount=document.getElementById('resultsMount');
