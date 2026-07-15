@@ -698,18 +698,25 @@
   function saveState(){
     try{
       var qty={}; CATS.forEach(function(c){ c.pieces.forEach(function(p){ if(p.qty>0) qty[p.id]=p.qty; }); });
-      localStorage.setItem(SKEY, JSON.stringify({ step:step, qty:qty, palette:palette, touched:touched, amounts:amounts, removed:removed, overrides:overrides, additions:additions, alacarte:alacarte, leadEmail:leadEmail, leadName:leadName }));
+      var data = JSON.stringify({ step:step, qty:qty, palette:palette, touched:touched, amounts:amounts, removed:removed, overrides:overrides, additions:additions, alacarte:alacarte, leadEmail:leadEmail, leadName:leadName });
+      try { localStorage.setItem(SKEY, data); } catch(e) { sessionStorage.setItem(SKEY, data); }
     }catch(e){}
   }
   function loadState(){
     try{
-      var raw=localStorage.getItem(SKEY); if(!raw) return null;
+      var raw;
+      try { raw = localStorage.getItem(SKEY); } catch(e){}
+      if(!raw) { try { raw = sessionStorage.getItem(SKEY); } catch(e){} }
+      if(!raw) return null;
       var s=JSON.parse(raw); if(!s||!s.qty) return null;
       CATS.forEach(function(c){ c.pieces.forEach(function(p){ p.qty=s.qty[p.id]||0; }); });
       palette=s.palette||{}; touched=s.touched||{}; amounts=s.amounts||{}; removed=s.removed||{}; overrides=s.overrides||{}; additions=s.additions||{}; alacarte=s.alacarte||[]; leadEmail=s.leadEmail||null; leadName=s.leadName||null;
       return s;
     }catch(e){ return null; }
   }
+  document.addEventListener('visibilitychange', function(){
+    if (document.visibilityState === 'hidden') saveState();
+  });
   function refreshCounts(){
     CATS.forEach(function(c){ var n=0; c.pieces.forEach(function(x){ n+=x.qty; }); var el=root.querySelector('[data-seccount="'+c.id+'"]'); if(el){ el.textContent=n?n+' selected':''; el.classList.toggle('on',n>0); } });
   }
@@ -1361,6 +1368,7 @@
     CATS.forEach(function(c){ c.pieces.forEach(function(p){ p.qty=0; }); });
     palette={}; touched={}; amounts={}; removed={}; overrides={}; additions={}; alacarte=[]; openArrs={}; closedCats={}; leadEmail=null; leadName=null;
     try{ localStorage.removeItem(SKEY); }catch(e){}
+    try{ sessionStorage.removeItem(SKEY); }catch(e){}
     renderSections(); setStep(1);
   }
 
