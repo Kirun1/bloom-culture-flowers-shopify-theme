@@ -1223,7 +1223,7 @@
             '<label class="tlr-f"><span>Your name *</span><input id="tlrName" type="text" required autocomplete="name" /></label>'+
             '<label class="tlr-f"><span>Email *</span><input id="tlrEmail" type="email" required placeholder="you@email.com" autocomplete="email" /></label>'+
             '<label class="tlr-f"><span>Confirm email *</span><input id="tlrEmail2" type="email" required placeholder="Re-enter your email" autocomplete="email" onpaste="return false" /></label>'+
-            '<label class="tlr-f"><span>Wedding date *</span><input id="tlrDate" type="text" required placeholder="MM / DD / YYYY" /></label>'+
+            '<label class="tlr-f"><span>Wedding date *</span><input id="tlrDate" type="date" required /></label>'+
             '<label class="tlr-f"><span>Colors or vibe</span><input id="tlrColors" type="text" placeholder="e.g. blush, ivory, garden" /></label>'+
           '</div>'+
           '<label class="tlr-f"><span>Budget range *</span><select id="tlrBudget" required>'+
@@ -1252,6 +1252,8 @@
         '<div id="tlrOk"></div>'+
       '</div></div>';
     m.classList.add('on');
+    var dateEl = document.getElementById('tlrDate');
+    if(dateEl){ dateEl.min = new Date().toISOString().split('T')[0]; }
     document.getElementById('tlrX').addEventListener('click',function(){ m.classList.remove('on'); });
     document.getElementById('tlrForm').addEventListener('submit',function(e){ e.preventDefault();
       var em=(document.getElementById('tlrEmail').value||'').trim();
