@@ -1139,7 +1139,7 @@
       if(v.toLowerCase()!==v2.toLowerCase()){ if(le) le.textContent='Those emails don\u2019t match \u2014 please double-check.'; document.getElementById('leadEmail2').focus(); return; }
       if(le) le.textContent='';
       leadName=nm; leadEmail=v;
-      trackGA4Event('byop_click_email_lead', { event_category: 'BYOP Builder', lead_email: leadEmail });
+      trackGA4Event('byop_click_email_lead', { event_category: 'BYOP Builder' });
       /* === BLOOM CULTURE INTEGRATION CODE — DO NOT OVERWRITE === */
       fetch('https://mvrcmtbvfvmigjloxcva.supabase.co/functions/v1/quote-email',{
         method:'POST',
@@ -1158,7 +1158,7 @@
       var btn = this;
       if (btn.disabled) return;
       var sumData = buildSummary();
-      trackGA4Event('byop_click_add_to_cart', { event_category: 'BYOP Builder', value: sumData.total || 0, currency: 'USD' });
+      trackGA4Event('byop_click_add_to_cart', { event_category: 'BYOP Builder', quote_value: sumData.total || 0 });
       btn.disabled = true;
       btn.innerHTML = 'Adding to cart...';
 
@@ -1546,7 +1546,9 @@
       if (!_ga4EventsFired.step3) {
         _ga4EventsFired.step3 = true;
         var sum = buildSummary();
-        trackGA4Event('byop_step_3_viewed', { step: 3, estimated_total: sum.total || 0 });
+        setTimeout(function() {
+          trackGA4Event('byop_step_3_viewed', { step: 3, estimated_total: sum.total || 0 });
+        }, 100);
       }
     }
     root.querySelectorAll('.stepdot').forEach(function(d){
